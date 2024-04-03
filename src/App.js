@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import OurProcess from './components/OurProcess';
 import ServiceHome from './components/ServiceHome';
+import ShortContact from './components/ShortContact';
 import WhatApp from './components/WhatApp';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <ContentTwoBox/>
     <Benifits/>
     <OurProcess/>
+    <ShortContact/>
     <Clock/>
     <ServiceHome/>
     <Dream/>
