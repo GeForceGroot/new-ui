@@ -53,7 +53,7 @@
 .mtb40 {
   opacity: 1;
   /* Initially hide the text */
-  font-size: 50px;
+  font-size: 40px;
   animation: alternate-reverse;
   /* text-align: center; */
 }
