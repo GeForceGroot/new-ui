@@ -6,7 +6,7 @@ const Clock = () => {
         <>
             <div className='container' style={{ marginTop: '100px', textAlign: "center" }}>
                 <div className='headingClock' style={{ textAlign: 'center' }}>
-                    <h1>Let us handle the writing, while you’re celebrating!🎉🎊</h1>
+                    <h2>Let us handle the writing, while you’re celebrating!🎉🎊</h2>
                 </div>
                 <div className="row" id='clockMian'>
                     <div className="col" id='dataCol'>

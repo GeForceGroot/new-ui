@@ -7,11 +7,13 @@ import ConetentService from './components/ConetentService';
 import ContentTwoBox from './components/ContentTwoBox';
 import Dream from './components/Dream';
 import Footer from './components/Footer';
+import GlobalUniversity from './components/GlobalUniversity';
 import Navbar from './components/Navbar';
 import OurProcess from './components/OurProcess';
 import ServiceHome from './components/ServiceHome';
 import ShortContact from './components/ShortContact';
 import WhatApp from './components/WhatApp';
+import WorkSpeaks from './components/WorkSpeaks';
 
 function App() {
   return (
@@ -22,9 +24,11 @@ function App() {
     <ContentTwoBox/>
     <Benifits/>
     <OurProcess/>
+    <GlobalUniversity/>
     <ShortContact/>
     <Clock/>
     <ServiceHome/>
+    <WorkSpeaks/>
     <Dream/>
     <WhatApp/>
     <Acadmicimpact/>

@@ -76,7 +76,7 @@
     input[type="email"],
     input[type="tel"] {
       /* Adjust width for smaller screens */
-      width: calc(100% - 130px); /* Subtract label width */
+      width: calc(100% - 180px); /* Subtract label width */
     }
   }
   
@@ -91,7 +91,7 @@
     input[type="email"],
     input[type="tel"] {
       /* Adjust width for very small screens */
-      width: calc(100% - 90px); /* Subtract adjusted label width */
+      width: calc(100% - 150px); /* Subtract adjusted label width */
     }
   
     /* Increase font size for better readability */

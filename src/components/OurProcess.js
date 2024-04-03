@@ -5,8 +5,8 @@ const OurProcess = () => {
         <>
             <div className='container' id='orP'>
                 <div id='headorP'>
-                    <h1 style={{ color: "#079070" }}>OUR PROCESS</h1>
-                    <h2>How We Make Impeccable Academic Essays</h2>
+                    <h2 style={{ color: "#079070" }}>OUR PROCESS</h2>
+                    <h3>How We Make Impeccable Academic Essays</h3>
                     <p style={{fontSize:'20px', textAlign:'center', marginTop:'15px', marginBottom:'15px'}}>We have served thousands of clients from a wide range of business domains from around the world. No matter what your core business is, our content writing team has got the finest content writing services that you and your audience would love.</p>
                 </div>
                 <div className='row'>
