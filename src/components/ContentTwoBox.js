@@ -31,6 +31,11 @@ const ContentTwoBox = () => {
                 </div>
             </div>
         </div>
+            <div className='btnTalk' style={{ textAlign: "center"}}>
+                <button type="button" style={{ marginTop: '50px',fontWeight:'bold', fontSize:'25px' }} class="btn btn-primary btn-lg">
+                    <img src="https://www.iconpacks.net/icons/1/free-phone-icon-505-thumb.png" width={'25px'} height={'25px'} style={{marginRight:'15px'}} alt="phone" />
+                    Talk to an expert</button>
+            </div>
         </>
     )
 }
