@@ -17,7 +17,38 @@
   .pro-status {
     font-weight: 500;
     font-size: 40px;
+    animation: alternate-reverse;
+    opacity: 1;  /* Initially hide the text */
+    animation: sni 2s ease-in both;
   }
+
+  
+  @keyframes sni {
+    from {
+      transform: translateX(-100%);  /* Start from 100% off-screen to the left */
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);  /* Animate to the original position */
+      opacity: 1;
+    }
+  }
+  .mt40{
+    animation: alternate-reverse;
+    opacity: 1;  /* Initially hide the text */
+    animation: ani 2s ease-in;
+  }
+  @keyframes ani {
+    from {
+      transform: translateX(-100%);  /* Start from 100% off-screen to the left */
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);  /* Animate to the original position */
+      opacity: 1;
+    }
+  }
+  
   
   /* Media query for screens less than 600px */
   @media (max-width: 600px) {
