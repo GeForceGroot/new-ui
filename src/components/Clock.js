@@ -8,7 +8,7 @@ const Clock = () => {
                 <div className='headingClock' style={{ textAlign: 'center' }}>
                     <h1>Let us handle the writing, while you’re celebrating!🎉🎊</h1>
                 </div>
-                <div className="row">
+                <div className="row" id='clockMian'>
                     <div className="col" id='dataCol'>
                         <h5 id='ck1'>Collecting data</h5>
                         <h5 id='ck1' style={{ color: '#135bbf', marginBottom:'25px' }}>4% time wasted</h5>
@@ -23,10 +23,10 @@ const Clock = () => {
                         <h5 id='ck6'>Editing & proofreading</h5>
                         <h5 id='ck6' style={{ color: '#135bbf' }}>14% time wasted</h5>
                     </div>
-                    <div className="col-8">
+                    <div className="col-8" id='clockMain'>
                         <img src="https://www.write-right.in/img/circleframe.webp" style={{ marginTop: '100px' }} alt="clock" />
                     </div>
-                    <div className="col">
+                    <div className="col" id='sideData'>
                         <p id='paraColck1' style={{color: '#135bbf', fontSize:'23px', fontWeight:'bold'}}>We've got your back, and your A+</p>
                         <p id='paraColck2' style={{fontSize:"23px"}}>From "Oh no" to "Wow!"</p>
                     </div>

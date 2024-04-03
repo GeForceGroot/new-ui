@@ -21,5 +21,22 @@
         margin-left: -125px;
 }
 
+@media only screen and (max-width: 1012px) {
+    #dataCol{
+        opacity: 0;
+    }
+    #sideData{
+        opacity: 0;
+    }
+    #clockMain{
+        margin-left: -250px;
+    }
+}
+
+@media (max-width: 500px) {
+    #clockMain{
+        margin-left: -125px;
+    }
+}
 
 
