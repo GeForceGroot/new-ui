@@ -1,6 +1,7 @@
 import './App.css';
 import Benifits from './components/Benifits';
 import Carousel from './components/Carousel';
+import Clock from './components/Clock';
 import ConetentService from './components/ConetentService';
 import ContentTwoBox from './components/ContentTwoBox';
 import Navbar from './components/Navbar';
@@ -15,6 +16,7 @@ function App() {
     <ContentTwoBox/>
     <Benifits/>
     <OurProcess/>
+    <Clock/>
     </>
   );
 }

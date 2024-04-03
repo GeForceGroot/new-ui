@@ -19,10 +19,11 @@ const Benifits = () => {
                     <h2 className="heading" id='' style={{ marginTop: "10px" }}>📖 We Do Assignments Online &amp; Offer Amazing Perks !</h2>
                 </div>
             </section>
-            <section className='prefer' id='prefer2' >
+            <section className='prefer' id='prefer2' style={{backgroundColor:"#f3f2f2c2"}} >
                 <div className="row" style={{ margin: '60px' }}>
                     <div className="col-sm one-third item" id='blueBox'>
                         <div className="hex"></div>
+                        {/* <img src="https://cdn-icons-png.freepik.com/512/9071/9071932.png" width={'60px'} height={'60px'} alt="pin" /> */}
                         <img width="56" height="56" kis-src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon1.svg" alt="quality" src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon1.svg" />
                         <h3>Solutions of impeccable quality</h3>
                         <p></p><div className="MsoNormal" style={{ textAlign: 'justify' }}>
@@ -70,13 +71,13 @@ const Benifits = () => {
                         <p></p><p className="p">Our support team&nbsp;is always ready to help you out. Call them up for any queries &amp; doubts regarding our assignment help&nbsp;services.</p><p></p>
                     </div>
                 </div>
-                <div className='btnTalk' style={{ textAlign: "center" }}>
-                    <button type="button" style={{ marginTop: '50px', fontWeight: 'bold', fontSize: '25px' }} className="btn btn-primary btn-lg">
-                        <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
-                        Work with us</button>
-                </div>
-                <hr style={{ marginLeft: "150px", marginRight: "150px", marginTop:'100px', border: "2px solid #3295de"}} />
             </section>
+            <div className='btnTalk' style={{ textAlign: "center" }}>
+                <button type="button" style={{ fontWeight: 'bold', fontSize: '25px' }} className="btn btn-primary btn-lg">
+                    <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
+                    Work with us</button>
+            </div>
+            <hr style={{ marginLeft: "150px", marginRight: "150px", marginTop: '75px', marginBottom:"100px", border: "2px solid #3295de" }} />
         </>
     )
 }
