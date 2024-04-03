@@ -1,4 +1,5 @@
 import './App.css';
+import Benifits from './components/Benifits';
 import Carousel from './components/Carousel';
 import ConetentService from './components/ConetentService';
 import ContentTwoBox from './components/ContentTwoBox';
@@ -11,6 +12,7 @@ function App() {
     <Carousel/>
     <ConetentService/>
     <ContentTwoBox/>
+    <Benifits/>
     </>
   );
 }

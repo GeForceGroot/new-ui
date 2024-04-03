@@ -1,0 +1,97 @@
+/* Target the 'prefer' sections */
+.prefer {
+    text-align: center; /* Center content horizontally */
+    padding: 30px 0; /* Add top and bottom padding */
+  }
+  
+  /* Style the section heading */
+  .prefer .section-heading {
+    margin-bottom: 20px; /* Add space below heading */
+  }
+  
+  .prefer .heading {
+    font-size: 2rem; /* Adjust heading font size */
+    margin-top: 0; /* Remove default top margin */
+  }
+  
+  .prefer .heading-icons {
+    justify-content: center; /* Center icons horizontally */
+  }
+
+  .one-third{
+    margin: 30px;
+    padding-top: 15px;
+    font-size: large;
+  }
+  #blueBox{
+    border: 1px solid #135bbf;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #135bbf, 0 6px 20px 0 #135bbf;
+    background-image: url("https://i.pinimg.com/736x/a5/d1/e1/a5d1e1a26153d2fe00ecac8c56491721.jpg");
+  }
+  #greenBox{
+    border: 1px solid #35af35;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #35af35, 0 6px 20px 0 #35af35;
+    background-image: url("https://img.freepik.com/premium-vector/background-with-wavy-lines-green-colors-space-your-text_865741-272.jpg");
+  }
+  
+  /* Style the icon containers */
+  .prefer .icon1 {
+    display: inline-block; /* Allow icons to sit side-by-side */
+    margin: 0 10px; /* Add horizontal spacing between icons */
+    position: relative; /* Needed for hex styling */
+  }#prefer1{
+    margin-top: 50px;
+  }
+  #prefer2{
+    margin: 60px;
+  }
+  
+  /* Style the content boxes */
+  .prefer .item {
+    margin-bottom: 30px; /* Add space below each box */
+  }
+  
+  .prefer .item img {
+    margin-bottom: 10px; /* Add space below image */
+  }
+  
+  .prefer .item h3 {
+    font-size: 1.2rem; /* Adjust title font size */
+    margin-bottom: 10px; /* Add space below title */
+  }
+  
+  .prefer .item p {
+    line-height: 1.5; /* Adjust paragraph line spacing */
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .prefer .heading {
+      font-size: 1.5rem; /* Adjust heading size for smaller screens */
+    }
+  
+    .prefer .item {
+      margin-bottom: 20px; /* Reduce spacing between boxes */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Further adjustments for even smaller screens */
+    .prefer .icon1 {
+      margin: 0 5px; /* Reduce spacing between icons */
+    }
+  
+    .prefer .item h3 {
+      font-size: 1rem; /* Adjust title size for very small screens */
+    }
+    #prefer1{
+      margin-top: 50px;
+      margin-bottom: -50px;
+    }
+    #prefer2{
+      margin: 0px;
+    }
+  }
+  
