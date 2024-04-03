@@ -1,0 +1,21 @@
+#headorP{
+    justify-content: center;
+    text-align: center;
+}
+.ourCol{
+    margin-top: 20px;
+    border: 1px solid rgb(164, 162, 162);
+}
+.ourCol1{
+    border: 1px solid rgb(164, 162, 162);
+}
+#headOurP{
+    font-size: 75px;
+    color: #208caf;
+}
+#paraOurp{
+    margin-top: 20px;
+    font-size: large;
+}
+
+    

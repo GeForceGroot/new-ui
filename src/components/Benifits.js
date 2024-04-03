@@ -36,7 +36,7 @@ const Benifits = () => {
                         <img width="56" height="56" kis-src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon3.svg" alt="quality" src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon3.svg" />
                         <h3>100% originality guaranteed</h3>
                         <div className='container'>
-                        <p></p><p className="p">Our paper writers&nbsp;work on every order from scratch. Every solution goes through multiple plagiarism checks. We also attach FREE plagiarism&nbsp;reports when we deliver our solutions. Contact our support team&nbsp;to know more.</p><p></p>
+                            <p></p><p className="p">Our paper writers&nbsp;work on every order from scratch. Every solution goes through multiple plagiarism checks. We also attach FREE plagiarism&nbsp;reports when we deliver our solutions. Contact our support team&nbsp;to know more.</p><p></p>
                         </div>
                     </div>
                     <div className="col-sm one-third item" id='blueBox'>
@@ -44,7 +44,7 @@ const Benifits = () => {
                         <img width="56" height="56" kis-src="https://cdn1.myassignment.live/mah-live/img/time-delivery.svg" alt="quality" src="https://cdn1.myassignment.live/mah-live/img/time-delivery.svg" />
                         <h3>On-time delivery</h3>
                         <div className='container'>
-                        <p></p><p className="p">Be it 2 days or 2 weeks; our qualified assignment experts&nbsp;will meet any deadline with impunity. They toil round the clock and work in teams to send a superb solution long before the deadline.</p><p></p>
+                            <p></p><p className="p">Be it 2 days or 2 weeks; our qualified assignment experts&nbsp;will meet any deadline with impunity. They toil round the clock and work in teams to send a superb solution long before the deadline.</p><p></p>
                         </div>
                     </div>
                 </div>
@@ -70,8 +70,13 @@ const Benifits = () => {
                         <p></p><p className="p">Our support team&nbsp;is always ready to help you out. Call them up for any queries &amp; doubts regarding our assignment help&nbsp;services.</p><p></p>
                     </div>
                 </div>
+                <div className='btnTalk' style={{ textAlign: "center" }}>
+                    <button type="button" style={{ marginTop: '50px', fontWeight: 'bold', fontSize: '25px' }} className="btn btn-primary btn-lg">
+                        <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
+                        Work with us</button>
+                </div>
+                <hr style={{ marginLeft: "150px", marginRight: "150px", marginTop:'100px', border: "2px solid #3295de"}} />
             </section>
-            {/* <hr style={{ marginLeft: "150px", marginRight: "150px", border: "2px solid lightblue", backgroundImage: 'linear-gradient(to right, #fa709a 0%, #fee140 100%)' }} /> */}
         </>
     )
 }
