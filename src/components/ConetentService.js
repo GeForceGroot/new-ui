@@ -8,7 +8,7 @@ const ConetentService = () => {
             <div className='container' id='cnS'>
                 <h1 id='heading'>We Offer the Best Academic Content Writing Services</h1>
                 <div className='container' id='paraId'>
-                    <p id='para'>Team Anjit VS creates admission and academic essays that students need throughout their academic journey. We help them apply successfully to their preferred universities with admission essays and create insightful assignments and dissertations for better grades and scores. We offer the following academic writing help.</p>
+                    <p id='para'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, eum? Nemo est sit sunt a, laudantium deleniti. Qui saepe dolorem minima cum odio blanditiis hic culpa accusamus molestiae, veniam labore.</p>
                 </div>
             </div>
         </>
