@@ -1,0 +1,206 @@
+.ball {
+    animation: float 3.5s ease-in-out infinite;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+
+    background: radial-gradient(circle at 75% 30%,
+        white 5px,
+        aqua 8%,
+        darkblue 60%,
+        aqua 100%);
+    box-shadow: inset 0 0 20px #fff, inset 10px 0 46px #eaf5fc,
+      inset 88px 0px 60px #c2d8fe, inset -20px -60px 100px #fde9ea,
+      inset 0 50px 140px #fde9ea, 0 0 90px #fff;
+  }
+
+  .hwll {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 140px;
+  }
+
+  #ball1 {
+    margin-left: 200px;
+  }
+
+  #ball2 {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  #ball3 {
+    margin-right: 200px;
+  }
+  #para{
+    font-size: 25px;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+
+    50% {
+      transform: translatey(-80px);
+    }
+
+    100% {
+      transform: translatey(0px);
+    }
+  }
+
+  .shadow {
+    background: #6c9cdf;
+    width: 150px;
+    height: 40px;
+    top: 70%;
+    animation: expand 4s infinite;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 70px;
+    opacity: .5;
+  }
+
+  @keyframes expand {
+
+    0%,
+    100% {
+      transform: scale(0.5);
+    }
+
+    50% {
+      transform: scale(1);
+    }
+  }
+  @media (min-width: 701px) and (max-width: 1080px){
+    .hwll {
+      display: flex;
+      margin-top: 60px;
+    }
+  
+    #ball1 {
+      margin-left: 100px;
+    }
+  
+    #ball2 {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  
+    #ball3 {
+      margin-right: 100px;
+    }
+    #para{
+      font-size: 23px;
+    }
+    .shadow {
+      width: 90px;
+      height: 20px;
+      top: 78%;
+      animation: expand 5s infinite;
+      margin-top: 42px;
+      margin-left: 44px;
+      opacity: .5;
+    }
+  }
+  @media (min-width: 451px) and (max-width: 700px){
+    .hwll {
+      display: block;
+      margin-top: 30px;
+      margin-left: 140px;
+    }
+
+    #ball1 {
+      margin-left: 0px;
+    }
+
+    #ball2 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    #ball3 {
+      margin-right: 0px;
+    }
+    #para{
+      font-size: 21px;
+    }
+    .shadow {
+      width: 90px;
+      height: 20px;
+      top: 78%;
+      animation: expand 5s infinite;
+      margin-top: 25px;
+      margin-left: 75px;
+      opacity: .5;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 450px) {
+    .hwll {
+      display: block;
+      margin-top: 30px;
+      margin-left: 135px;
+    }
+
+    #ball1 {
+      margin-left: 0px;
+    }
+
+    #ball2 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    #ball3 {
+      margin-right: 0px;
+    }
+    #para{
+      font-size: 18px;
+    }
+
+
+    .ball {
+      animation: float 4.5s ease-in-out infinite;
+      height: 120px;
+      width: 150px;
+
+      background: radial-gradient(circle at 65% 35%,
+          white 5px,
+          aqua 15%,
+          darkblue 50%,
+          aqua 100%);
+      box-shadow: inset 0 -20px 30px #fff, inset 40px 0 46px #eaf5fc,
+        inset 58px 0px 60px #c2d8fe, inset -8px -30px 100px #fde9ea,
+        inset 0 20px 110px #fde9ea, 0 0 90px #fff;
+    }
+
+    .shadow {
+      width: 90px;
+      height: 20px;
+      top: 78%;
+      animation: expand 5s infinite;
+      margin-top: 25px;
+      margin-left: 30px;
+      opacity: .5;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translatey(0px);
+      }
+
+      50% {
+        transform: translatey(-50px);
+      }
+
+      100% {
+        transform: translatey(0px);
+      }
+    }
+  }
