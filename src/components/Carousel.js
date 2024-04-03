@@ -8,7 +8,7 @@ const Carousel = () => {
                 <div className='row'>
                     <div className='col-lg-12 col-xs-12 herocontent'>
                         <div className='wow fadeInUp pst'>
-                            <span class="pro-status">The Write Way<br />to Academic Excellence</span>
+                            <span className="pro-status">The Write Way<br />to Academic Excellence</span>
                         </div>
                         <p className="mtb40" style={{ opacity: "0.92" }}>Achieve Academic Success with <br />Write Right's Professional Writing Services</p>
                     </div>
