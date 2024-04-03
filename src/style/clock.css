@@ -1,24 +1,31 @@
 #dataCol{
     margin-top: 90px;
+    animation: cni 4s;
 }
 #ck1{
     margin-right: -275px;
+    animation: cni 4s;
 }
 #ck2{
     margin-right: -110px;
+    animation: cni 4s;
 }
 #ck5{
     margin-right: -110px;
+    animation: cni 4s;
 }
 #ck6{
     margin-right: -275px;
+    animation: cni 4s;
 }
 #paraColck1{
         margin-top: 295px;
         margin-left: -130px;
+        animation: oni 4s;
 }
 #paraColck2{
         margin-left: -125px;
+        animation: oni 4s;
 }
 
 @media only screen and (max-width: 1012px) {
@@ -39,4 +46,24 @@
     }
 }
 
+@keyframes cni {
+    from {
+        transform: translateX(-100%);  /* Start from 100% off-screen above */
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);  /* Animate to the original position */
+        opacity: 1;
+      }
+  }
+  @keyframes oni {
+    from {
+        transform: translateX(100%);  /* Start from 100% off-screen above */
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);  /* Animate to the original position */
+        opacity: 1;
+      }
+  }
 
