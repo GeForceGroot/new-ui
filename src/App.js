@@ -4,8 +4,10 @@ import Carousel from './components/Carousel';
 import Clock from './components/Clock';
 import ConetentService from './components/ConetentService';
 import ContentTwoBox from './components/ContentTwoBox';
+import Dream from './components/Dream';
 import Navbar from './components/Navbar';
 import OurProcess from './components/OurProcess';
+import ServiceHome from './components/ServiceHome';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
     <Benifits/>
     <OurProcess/>
     <Clock/>
+    <ServiceHome/>
+    <Dream/>
     </>
   );
 }

@@ -24,7 +24,7 @@ const Clock = () => {
                         <h5 id='ck6' style={{ color: '#135bbf' }}>14% time wasted</h5>
                     </div>
                     <div className="col-8" id='clockMain'>
-                        <img src="https://www.write-right.in/img/circleframe.webp" style={{ marginTop: '100px' }} alt="clock" />
+                        <img src="https://www.write-right.in/img/circleframe.webp" style={{ marginTop: '100px' }} id='ckImg' alt="clock" />
                     </div>
                     <div className="col" id='sideData'>
                         <p id='paraColck1' style={{color: '#135bbf', fontSize:'23px', fontWeight:'bold'}}>We've got your back, and your A+</p>

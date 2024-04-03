@@ -21,11 +21,9 @@
 #paraColck1{
         margin-top: 295px;
         margin-left: -130px;
-        animation: oni 4s;
 }
 #paraColck2{
         margin-left: -125px;
-        animation: oni 4s;
 }
 
 @media only screen and (max-width: 1012px) {
