@@ -13,13 +13,13 @@ const Benifits = () => {
                         </div>
                         <div className="icon1">
                             <div className="hex "></div>
-                            <img width="53" height="46" loading="lazy" src="https://cdn1.myassignment.live/mah-live/img/cap.svg" alt="cap" />
+                            <img width="53" height="46" loading="lazy" src="https://cdn1.myassignment.live/mah-live/img/cap.svg" alt="caMsoNormal" />
                         </div>
                     </div>
                     <h2 className="heading" id='' style={{ marginTop: "10px" }}>📖 We Do Assignments Online &amp; Offer Amazing Perks !</h2>
                 </div>
             </section>
-            <section className='prefer' id='prefer2' style={{backgroundColor:"#f3f2f2c2"}} >
+            <section className='prefer' id='prefer2' style={{backgroundColor:"#edf2fe"}} >
                 <div className="row" style={{ margin: '60px' }}>
                     <div className="col-sm one-third item" id='blueBox'>
                         <div className="hex"></div>
@@ -37,7 +37,7 @@ const Benifits = () => {
                         <img width="56" height="56" kis-src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon3.svg" alt="quality" src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon3.svg" />
                         <h3>100% originality guaranteed</h3>
                         <div className='container'>
-                            <p></p><p className="p">Our paper writers&nbsp;work on every order from scratch. Every solution goes through multiple plagiarism checks. We also attach FREE plagiarism&nbsp;reports when we deliver our solutions. Contact our support team&nbsp;to know more.</p><p></p>
+                            <p></p><p className="MsoNormal">Our paper writers&nbsp;work on every order from scratch. Every solution goes through multiple plagiarism checks. We also attach FREE plagiarism&nbsp;reports when we deliver our solutions. Contact our support team&nbsp;to know more.</p><p></p>
                         </div>
                     </div>
                     <div className="col-sm one-third item" id='blueBox'>
@@ -45,7 +45,7 @@ const Benifits = () => {
                         <img width="56" height="56" kis-src="https://cdn1.myassignment.live/mah-live/img/time-delivery.svg" alt="quality" src="https://cdn1.myassignment.live/mah-live/img/time-delivery.svg" />
                         <h3>On-time delivery</h3>
                         <div className='container'>
-                            <p></p><p className="p">Be it 2 days or 2 weeks; our qualified assignment experts&nbsp;will meet any deadline with impunity. They toil round the clock and work in teams to send a superb solution long before the deadline.</p><p></p>
+                            <p></p><p className="MsoNormal">Be it 2 days or 2 weeks; our qualified assignment experts&nbsp;will meet any deadline with impunity. They toil round the clock and work in teams to send a superb solution long before the deadline.</p><p></p>
                         </div>
                     </div>
                 </div>
@@ -55,29 +55,29 @@ const Benifits = () => {
                         <img width="56" height="56" kis-src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon5.svg" alt="quality" src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon5.svg" />
                         <h3>Affordable price</h3>
                         <p></p><div className="MsoNormal" style={{ textAlign: 'justify' }}>
-                            <p className="p"><span style={{ fontFamily: 'Times New Roman' }}>“Where can I </span>pay for my assignment&nbsp;without going broke?” Where else but right here? Enjoy the best writing service&nbsp;in the US at affordable prices&nbsp;alongside awesome offers &amp; discounts. Connect today.</p>
+                            <p className="MsoNormal"><span style={{ fontFamily: 'Times New Roman' }}>“Where can I </span>pay for my assignment&nbsp;without going broke?” Where else but right here? Enjoy the best writing service&nbsp;in the US at affordable prices&nbsp;alongside awesome offers &amp; discounts. Connect today.</p>
                         </div><p></p>
                     </div>
                     <div className="col-sm one-third item" id='blueBox'>
                         <div className="hex"></div>
                         <img width="56" height="56" kis-src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon4.svg" alt="quality" src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon4.svg" />
                         <h3>Get great grades</h3>
-                        <p></p><p className="p">At Myassignmenthelp, we guarantee better grades with our high-quality papers. Work with our experts and boost your grades, knowledge, and skills today. Share your requirements today.</p><p></p>
+                        <p></p><p className="MsoNormal">At Myassignmenthelp, we guarantee better grades with our high-quality papers. Work with our experts and boost your grades, knowledge, and skills today. Share your requirements today.</p><p></p>
                     </div>
                     <div className="col-sm one-third item" id='greenBox'>
                         <div className="hex"></div>
                         <img width="56" height="56" kis-src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon6.svg" alt="quality" src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon6.svg" />
                         <h3>24*7 online support</h3>
-                        <p></p><p className="p">Our support team&nbsp;is always ready to help you out. Call them up for any queries &amp; doubts regarding our assignment help&nbsp;services.</p><p></p>
+                        <p></p><p className="MsoNormal">Our support team&nbsp;is always ready to help you out. Call them up for any queries &amp; doubts regarding our assignment help&nbsp;services.</p><p></p>
                     </div>
                 </div>
             </section>
             <div className='btnTalk' style={{ textAlign: "center" }}>
-                <button type="button" style={{ fontWeight: 'bold', fontSize: '25px' }} className="btn btn-primary btn-lg">
+                <button type="button" id='btnHvn' className="btn btn-primary btn-lg">
                     <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
                     Work with us</button>
             </div>
-            <hr style={{ marginLeft: "150px", marginRight: "150px", marginTop: '75px', marginBottom:"100px", border: "2px solid #3295de" }} />
+            <hr style={{ marginLeft: "150px", marginRight: "150px", marginTop: '75px', marginBottom:"100px", border: "2px solid #15c39a" }} />
         </>
     )
 }

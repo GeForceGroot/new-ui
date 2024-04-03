@@ -3,22 +3,35 @@
     margin-top: 30px;
 }
 #col1{
-    border: 1px solid #6ad26a;
-    background-color: #6ad26a;
-    border-radius: 10px;
+    border: 1px solid #edf2fe;
+    background-color: #edf2fe;
+    border-radius: 1px;
     animation: cni 4s;
-    margin: 5px;
+    margin: 0px;
 }
 #col2{
-    border: 1px solid #208caf;
-    background-color: #208caf;
-    border-radius: 10px;
+    border: 1px solid #15c39a;
+    background-color: #15c39a;
+    border-radius: 1px;
     animation: oni 4s;
-    margin: 5px;
+    margin: 0px;
 }
 #head21{
     margin-top: 15px;
 }
+#btnHv{
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #15c39a;
+  border: 1px solid #15c39a;
+}
+
+#btnHv:hover{
+  background-color: #079070;
+  border: 1px solid #079070;
+}
+
 #head22{
     margin-top: 15px;
     color: white;

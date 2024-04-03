@@ -5,16 +5,25 @@ const Carousel = () => {
     return (
         <>
             <div className='container' id='carousel' >
-                <div className='row'>
-                    <div className='col-lg-12 col-xs-12 herocontent'>
-                        <div className='wow fadeInUp pst'>
-                            <span className="pro-status">The Write Way<br />to Academic Excellence</span>
+                <div className='row' id='rM'>
+                    <div className='col'>
+                        <div className='wow container fadeInUp pst'>
+                            <span className="pro-status">Before and After Admission</span>
+                            <p className="mtb40">All-Inclusive Academic Writing Services for Students</p>
+                            <p className='nxtpara'>With Anjit VS academic writing services, getting selected by a reputed university for your favorite course is now easie</p>
                         </div>
-                        <p className="mtb40" style={{ opacity: "0.92" }}>Achieve Academic Success with <br />Write Right's Professional Writing Services</p>
+                        <div className='btnTalk' >
+                            <button type="button" className="btn btn-primary btn-lg" id='btnHvn'>
+                                <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
+                                Talk with an expert</button>
+                        </div>
+                    </div>
+                    <div className='col mtb41'>
+                        <img src="https://anjitvs.in/wp-content/uploads/2022/09/business-desktop-870-x2-1536x980.webp" height={"500px"} alt="" />
                     </div>
                 </div>
             </div>
-            <hr  style={{borderTop: '2px dashed black'}}/>
+            <hr style={{ borderTop: '2px dashed black' }} />
         </>
     )
 }
