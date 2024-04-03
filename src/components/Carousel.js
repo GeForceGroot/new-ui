@@ -14,6 +14,7 @@ const Carousel = () => {
                     </div>
                 </div>
             </div>
+            <hr  style={{borderTop: '2px dashed black'}}/>
         </>
     )
 }

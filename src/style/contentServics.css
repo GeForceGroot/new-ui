@@ -1,0 +1,35 @@
+#cns{
+    justify-content: center;
+}
+#heading{
+    margin-left: 40px;
+    margin-top: 75px;
+    animation: ani 2s;
+    text-align: center;
+}
+#paraId{
+    display: block;
+    margin-top: 25px; 
+    text-align: center; 
+    font-size: large;
+    font-family: monospace;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+    #heading{
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+}
+@keyframes ani {
+    from {
+        transform: translateY(-225%);  /* Start from 100% off-screen above */
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);  /* Animate to the original position */
+        opacity: 1;
+      }
+  }

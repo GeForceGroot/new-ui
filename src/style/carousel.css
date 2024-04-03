@@ -19,7 +19,7 @@
     font-size: 40px;
     animation: alternate-reverse;
     opacity: 1;  /* Initially hide the text */
-    animation: sni 2s ease-in both;
+    animation: sni 2s;
   }
 
   
