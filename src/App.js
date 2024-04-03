@@ -4,6 +4,7 @@ import Carousel from './components/Carousel';
 import ConetentService from './components/ConetentService';
 import ContentTwoBox from './components/ContentTwoBox';
 import Navbar from './components/Navbar';
+import OurProcess from './components/OurProcess';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <ConetentService/>
     <ContentTwoBox/>
     <Benifits/>
+    <OurProcess/>
     </>
   );
 }
