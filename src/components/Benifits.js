@@ -19,8 +19,8 @@ const Benifits = () => {
                     <h2 className="heading" id='' style={{ marginTop: "10px" }}>📖 We Do Assignments Online &amp; Offer Amazing Perks !</h2>
                 </div>
             </section>
-            <section className='prefer' id='prefer2' style={{backgroundColor:"#edf2fe"}} >
-                <div className="row" style={{ margin: '60px' }}>
+            <div className='container' id='prefer2' >
+                <div className="row" >
                     <div className="col-sm one-third item" id='blueBox'>
                         <div className="hex"></div>
                         {/* <img src="https://cdn-icons-png.freepik.com/512/9071/9071932.png" width={'60px'} height={'60px'} alt="pin" /> */}
@@ -49,7 +49,7 @@ const Benifits = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row" style={{ margin: '60px' }}>
+                <div className="row">
                     <div className="col-sm one-third item" id='greenBox'>
                         <div className="hex"></div>
                         <img width="56" height="56" kis-src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon5.svg" alt="quality" src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon5.svg" />
@@ -71,8 +71,8 @@ const Benifits = () => {
                         <p></p><p className="MsoNormal">Our support team&nbsp;is always ready to help you out. Call them up for any queries &amp; doubts regarding our assignment help&nbsp;services.</p><p></p>
                     </div>
                 </div>
-            </section>
-            <div className='btnTalk' style={{ textAlign: "center" }}>
+            </div>
+            <div className='btnTalk' style={{ textAlign: "center", marginTop:'75px' }}>
                 <button type="button" id='btnHvn' className="btn btn-primary btn-lg">
                     <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
                     Work with us</button>

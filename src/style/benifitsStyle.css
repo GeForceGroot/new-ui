@@ -83,7 +83,6 @@
 
 /* Style the icon containers */
 .prefer .icon1 {
-  display: inline-block;
   /* Allow icons to sit side-by-side */
   margin: 0 10px;
   /* Add horizontal spacing between icons */
@@ -96,7 +95,6 @@
 }
 
 #prefer2 {
-  margin: 60px;
 }
 
 /* Style the content boxes */

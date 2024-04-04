@@ -1,0 +1,15 @@
+.contactUs {
+    position: relative;
+    opacity: 0.99;
+}
+
+.contactUs:before {
+    content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url("https://anjitvs.in/wp-content/uploads/2022/11/map-bg-dark-2.png") no-repeat 0 50%;
+  opacity: 0.15;
+}
+

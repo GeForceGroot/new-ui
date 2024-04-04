@@ -1,9 +1,12 @@
+/* eslint-disable react/jsx-pascal-case */
 import './App.css';
 import Acadmicimpact from './components/Acadmicimpact';
+import AssignmnetProvide from './components/AssignmnetProvide';
 import Benifits from './components/Benifits';
 import Carousel from './components/Carousel';
 import Clock from './components/Clock';
 import ConetentService from './components/ConetentService';
+// import Contact_us from './components/Contact_us';
 import ContentTwoBox from './components/ContentTwoBox';
 import Dream from './components/Dream';
 import Footer from './components/Footer';
@@ -26,12 +29,14 @@ function App() {
     <OurProcess/>
     <GlobalUniversity/>
     <ShortContact/>
-    <Clock/>
+    <AssignmnetProvide/>
+    {/* <Clock/> */}
     <ServiceHome/>
     <WorkSpeaks/>
     <Dream/>
     <WhatApp/>
     <Acadmicimpact/>
+    {/* <Contact_us/> */}
     <Footer/>
     </>
   );

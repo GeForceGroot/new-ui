@@ -11,3 +11,10 @@
     border-radius: 50px;
     border: 1px solid #15c39a;
 }
+
+
+@media (max-width: 750px) {
+    #portfolio{
+        opacity: 0;
+    }
+}
