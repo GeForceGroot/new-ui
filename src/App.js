@@ -4,9 +4,7 @@ import Acadmicimpact from './components/Acadmicimpact';
 import AssignmnetProvide from './components/AssignmnetProvide';
 import Benifits from './components/Benifits';
 import Carousel from './components/Carousel';
-import Clock from './components/Clock';
 import ConetentService from './components/ConetentService';
-// import Contact_us from './components/Contact_us';
 import ContentTwoBox from './components/ContentTwoBox';
 import Dream from './components/Dream';
 import Footer from './components/Footer';
@@ -30,7 +28,6 @@ function App() {
     <GlobalUniversity/>
     <ShortContact/>
     <AssignmnetProvide/>
-    {/* <Clock/> */}
     <ServiceHome/>
     <WorkSpeaks/>
     <Dream/>
