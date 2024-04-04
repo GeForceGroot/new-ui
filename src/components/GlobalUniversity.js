@@ -6,7 +6,7 @@ const GlobalUniversity = () => {
         <>
             <div className='container'>
                 <div className='row'>
-                    <div className='col'><img src="https://www.write-right.in/img/holeft.webp" alt="univesityImage" /></div>
+                    <div className='col' id='uni1'><img id='imgani' src="https://www.write-right.in/img/holeft.webp" alt="univesityImage" /></div>
                     <div className='col' id='colUni'>
                         <h2>Serving Global Universities at a</h2>
                         <h2 style={{ color: 'darkorange' }}>90% acceptance rate</h2>

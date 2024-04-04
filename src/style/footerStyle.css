@@ -6,3 +6,8 @@
     overflow: hidden;
     line-height: 0;
 }
+#portfolio{
+    background-color: #15c39a;
+    border-radius: 50px;
+    border: 1px solid #15c39a;
+}
