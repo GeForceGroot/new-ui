@@ -22,7 +22,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='btnTalk' style={{ textAlign: "center" }}>
-                        <button type="button" id='portfolio' className="btn btn-primary btn-lg">
+                        <button type="button" id='portfolio' className="btn btn-primary ">
                             <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
                             Contact Us for complete content and documentation assistance.</button>
                     </div>

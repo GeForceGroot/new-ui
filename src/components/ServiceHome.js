@@ -6,7 +6,7 @@ const ServiceHome = () => {
         <>
             <div className='servecieHome' id='servecieHome'>
                 <div className='hellooo' style={{ textAlign: "center" }}>
-                    <h1 style={{marginTop:'25px', paddingTop:'25px'}}>Services For All Your Needs</h1>
+                    <h4 style={{marginTop:'25px', paddingTop:'25px'}}>Services For All Your Needs</h4>
                 </div>
                     <div className='row' style={{marginTop:'50px', textAlign:'center'}} id='servrRow'>
                         <div className='col' id='serverCol'>
