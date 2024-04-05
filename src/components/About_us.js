@@ -45,6 +45,9 @@ const About_us = () => {
                     </div>
                 </div>
             </div>
+            <div className='container'>
+                
+            </div>
         </>
     )
 }
