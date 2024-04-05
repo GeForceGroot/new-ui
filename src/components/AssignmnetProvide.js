@@ -69,7 +69,7 @@ const AssignmnetProvide = () => {
                             <div className="col-sm one-third" style={{ transition: "all 0.8s ease-in-out", transform: "translateX(.5%)", backgroundColor: "#b867f4", borderRadius: '15px', color: 'darkgre' }} id='stdHelpH' onMouseLeave={handleHoverEnterI}>
                                 <div className="overlay hexagon yellow" style={{ opacity: '1' }}>
                                     <span className="innerShape"></span>
-                                    <h7>Study Help</h7>
+                                    <h6>Study Help</h6>
                                     <p></p>
                                     <p className="MsoNormal">When you avail the assistance of the essay helpers at MyAssignment.live, you get to accomplish each of your academic objectives. You also get to learn different kinds of lessons associated with your curriculum, clear your doubts on a specific concept and improve your knowledge through short yet remarkable sessions. Subscribe to our services to know more!</p>
                                     <p></p>
@@ -88,7 +88,7 @@ const AssignmnetProvide = () => {
                             <div className="col-sm one-third" id='stdHelpH' style={{ transition: "all 0.8s ease-in-out", transform: "translateX(.5%)", backgroundColor: "#b867f4", borderRadius: '15px', color: 'darkgre' }} onMouseLeave={handleHoverEnterII}>
                                 <div className="overlay hexagon yellow" style={{ opacity: '1' }}>
                                     <span className="innerShape"></span>
-                                    <h7>Essay Help</h7>
+                                    <h6>Essay Help</h6>
                                     <p></p>
                                     <p className="MsoNormal">Struggling to turn in an excellent essay? Approach us saying, 'I need help with my essay,' and our online essay writers&nbsp;will craft a paper that will reflect extensive research skills, creativity, and strong argumentative skills. Besides abiding by the requirements, it will also be engaging and gripping, leaving your professors spellbound.</p>
                                     <p></p>
@@ -110,7 +110,7 @@ const AssignmnetProvide = () => {
                             <div className="col-sm one-third" id='stdHelpH' style={{ transition: "all 0.8s ease-in-out", transform: "translateX(.5%)", backgroundColor: "lightblue", borderRadius: '15px', color: 'darkgre' }} onMouseLeave={handleHoverEnterIII}>
                                 <div className="overlay hexagon yellow" style={{ opacity: '1' }}>
                                     <span className="innerShape"></span>
-                                    <h7>Research Paper Help</h7>
+                                    <h6>Research Paper Help</h6>
                                     <p></p>
                                     <p className="MsoNormal">Get in touch with us by saying, 'Help me write a research paper’ to solve all your concerns in an instant. Our stalwarts who cater to your requests incorporate all the crucial details in the paper. They also make sure to present all segments – Intro, Abstract, Methods, Results, and Discussion – in such a way that will let you climb up the ladder of success with ease.</p>
                                     <p></p>
@@ -136,7 +136,7 @@ const AssignmnetProvide = () => {
                                 <div className="col-sm one-third" id='stdHelpH' style={{ transition: "all 0.8s ease-in-out", transform: "translateX(.5%)", backgroundColor: "lightgreen", borderRadius: '15px', color: 'darkgre' }} onMouseLeave={handleHoverEnterIV}>
                                     <div className="overlay hexagon yellow" style={{ opacity: '1' }}>
                                         <span className="innerShape"></span>
-                                        <h7>Homework Help</h7>
+                                        <h6>Homework Help</h6>
                                         <p></p>
                                         <p className="MsoNormal">Be it complex math homework or a Chemistry lab report, MyAssignment.live has the perfect solution for all your homework issues for all educational levels. We will explain all the steps in detail to arrive at the correct solution within the deadline. Simply type in ‘Do my homework for me’ and take well-knit solutions on time.</p>
                                         <p></p>
@@ -158,7 +158,7 @@ const AssignmnetProvide = () => {
                                 <div className="col-sm one-third" id='stdHelpH' style={{ transition: "all 0.8s ease-in-out", transform: "translateX(.5%)", backgroundColor: "orange", borderRadius: '15px', color: 'darkgre' }} onMouseLeave={handleHoverEnterV}>
                                     <div className="overlay hexagon yellow" style={{ opacity: '1' }}>
                                         <span className="innerShape"></span>
-                                        <h7>Case Study</h7>
+                                        <h6>Case Study</h6>
                                         <p></p>
                                         <p className="MsoNormal">Combat the complexities of writing a case study with us by your side. Our online essay writers&nbsp;will determine key issues, recommend changes needed and propose unique changes that will help you secure a straight A+. You can also take a look at our huge repository of samples that will help you deliver flawless case studies on your own.</p>
                                         <p></p>
@@ -179,7 +179,7 @@ const AssignmnetProvide = () => {
                                 <div className="col-sm one-third" id='stdHelpH' style={{ transition: "all 0.8s ease-in-out", transform: "translateX(.5%)", backgroundColor: "#ff2323c7", borderRadius: '15px', color: 'darkgre' }} onMouseLeave={handleHoverEnterVI}>
                                     <div className="overlay hexagon yellow" style={{ opacity: '1' }}>
                                         <span className="innerShape"></span>
-                                        <h7>More Writing Help</h7>
+                                        <h6>More Writing Help</h6>
                                         <p></p>
                                         <p className="MsoNormal">Alongside writing aid, we offer unmatched assistance for different papers along with complimentary proofreading and editing services, free plagiarism reports, unlimited reworks and revisions. You can also save ample time by accessing our free tools like plagiarism checker, spell checkers, paraphrasing tools, citation generators, etc., for FREE.</p>
                                         <p></p>

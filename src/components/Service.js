@@ -7,7 +7,7 @@ const Service = () => {
             <section id='bgServe'>
                 <div className="container" style={{ textAlign: 'center' }} >
                     <h5 id='animath5' style={{ color: "#15c39a", paddingTop: "100px" }} className="block-sub__title">What we do</h5>
-                    <h8 id='animath8' className="block-title" style={{ marginTop: '25px', color: "#fd8b00" }}>Check out our Services ⚙️</h8>
+                    <h6 id='animath6' className="block-title" style={{ marginTop: '25px', color: "#fd8b00" }}>Check out our Services ⚙️</h6>
                     <p id='paraAni' className="text-muted" style={{ marginTop: '40px', paddingBottom: '100px' }}>All invoices and payments happen through GetLance. Count on a simple and streamlined process.
                         Hourly and fixed-price projects. For hourly work, submit timesheets through GetLance. For fixed-price jobs, set milestones and funds are released via GetLance escrow features.
                         Multiple payment options. Choose a payment method that works best for you, from direct deposit or PayPal to wire transfer and more.
@@ -17,9 +17,9 @@ const Service = () => {
             <section id='servPointLeft' style={{ marginTop: '100px' }}>
                 <div className='container'>
                     <div className="row">
-                        <div className="col-md-6" id='animath8'>
+                        <div className="col-md-6" id='animath6'>
                             <h5 style={{ color: '#15c39a' }}>Assignment Assistance</h5>
-                            <h8 style={{ color: "#fd8b00" }} className="subheading">All projects include GetLance Payment Protection — helping ensure that you get paid for all work successfully completed through the freelancing website.</h8>
+                            <h6 style={{ color: "#fd8b00" }} className="subheading">All projects include GetLance Payment Protection — helping ensure that you get paid for all work successfully completed through the freelancing website.</h6>
                             <p className="text-muted">All invoices and payments happen through GetLance. Count on a simple and streamlined process.
                                 Hourly and fixed-price projects. For hourly work, submit timesheets through GetLance. For fixed-price jobs, set milestones and funds are released via GetLance escrow features.
                                 Multiple payment options. Choose a payment method that works best for you, from direct deposit or PayPal to wire transfer and more.</p>
@@ -36,12 +36,12 @@ const Service = () => {
                 </div>
                 <div className='container'>
                     <div className="row" style={{ marginTop: '100px' }}>
-                        <div className="col-md-6 how-img" id='animath8'>
+                        <div className="col-md-6 how-img" id='animath6'>
                             <img src="https://smartstudyassist.com/wp-content/uploads/2024/03/tran-mau-tri-tam-tZnbakTUcTI-unsplash.jpg" style={{ marginTop: "15px", width:'550px', height:'310px'}} className=" img-fluid" alt="Agginmnet" />
                         </div>
                         <div className="col-md-6" id='animath5'>
                             <h5 style={{ color: '#15c39a' }}>Dissertation Assistance</h5>
-                            <h8 style={{ color: "#fd8b00" }} className="subheading">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h8>
+                            <h6 style={{ color: "#fd8b00" }} className="subheading">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h6>
                             <p className="text-muted">Send and receive files. Deliver digital assets in a secure environment.
                                 Share feedback in real time. Use GetLance Messages to communicate via text, chat, or video.
                                 Use our mobile app. Many features can be accessed on your mobile phone when on the go.</p>
@@ -58,7 +58,7 @@ const Service = () => {
                     <div className="row" style={{ marginTop: '100px' }}>
                         <div className="col-md-6" id='animath5'>
                             <h5 style={{ color: '#15c39a' }}>Live Exams</h5>
-                            <h8 style={{ color: "#fd8b00" }} className="subheading">All projects include GetLance Payment Protection — helping ensure that you get paid for all work successfully completed through the freelancing website.</h8>
+                            <h6 style={{ color: "#fd8b00" }} className="subheading">All projects include GetLance Payment Protection — helping ensure that you get paid for all work successfully completed through the freelancing website.</h6>
                             <p className="text-muted">All invoices and payments happen through GetLance. Count on a simple and streamlined process.
                                 Hourly and fixed-price projects. For hourly work, submit timesheets through GetLance. For fixed-price jobs, set milestones and funds are released via GetLance escrow features.
                                 Multiple payment options. Choose a payment method that works best for you, from direct deposit or PayPal to wire transfer and more.</p>
@@ -75,12 +75,12 @@ const Service = () => {
                 </div>
                 <div className='container'>
                     <div className="row" style={{ marginTop: '100px' }}>
-                        <div className="col-md-6 how-img" id='animath8'>
+                        <div className="col-md-6 how-img" id='animath6'>
                             <img src="https://smartstudyassist.com/wp-content/uploads/2024/03/pexels-andrea-piacquadio-3760069.jpg" style={{ marginTop: "15px", width:'550px', height:'310px'}} className="img-fluid" alt="Help" />
                         </div>
-                        <div className="col-md-6" id='animath8'>
+                        <div className="col-md-6" id='animath6'>
                             <h5 style={{ color: '#15c39a' }}>Subject Matter Expert Projects</h5>
-                            <h8 style={{ color: "#fd8b00" }} className="subheading">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h8>
+                            <h6 style={{ color: "#fd8b00" }} className="subheading">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h6>
                             <p className="text-muted">Send and receive files. Deliver digital assets in a secure environment.
                                 Share feedback in real time. Use GetLance Messages to communicate via text, chat, or video.
                                 Use our mobile app. Many features can be accessed on your mobile phone when on the go.</p>
@@ -97,7 +97,7 @@ const Service = () => {
                     <div className="row" style={{ marginTop: '100px' }}>
                         <div className="col-md-6" id='animath5'>
                             <h5 style={{ color: '#15c39a' }}>Research Support</h5>
-                            <h8 style={{ color: "#fd8b00" }} className="subheading">All projects include GetLance Payment Protection — helping ensure that you get paid for all work successfully completed through the freelancing website.</h8>
+                            <h6 style={{ color: "#fd8b00" }} className="subheading">All projects include GetLance Payment Protection — helping ensure that you get paid for all work successfully completed through the freelancing website.</h6>
                             <p className="text-muted">All invoices and payments happen through GetLance. Count on a simple and streamlined process.
                                 Hourly and fixed-price projects. For hourly work, submit timesheets through GetLance. For fixed-price jobs, set milestones and funds are released via GetLance escrow features.
                                 Multiple payment options. Choose a payment method that works best for you, from direct deposit or PayPal to wire transfer and more.</p>
@@ -107,7 +107,7 @@ const Service = () => {
                                     Work with us</button>
                             </div>
                         </div>
-                        <div className="col-md-6 how-imgR" id='animath8'>
+                        <div className="col-md-6 how-imgR" id='animath6'>
                             <img src="https://smartstudyassist.com/wp-content/uploads/2024/03/pexels-lukas-669621.jpg" style={{ marginTop: "15px", width:'550px', height:'310px'}} className="img-fluid" alt="research" />
                         </div>
                     </div>
@@ -117,9 +117,9 @@ const Service = () => {
                         <div className="col-md-6 how-img" id='animath5'>
                             <img src="https://smartstudyassist.com/wp-content/uploads/2024/03/pexels-andrea-piacquadio-3790805.jpg" style={{width:'550px', height:'310px'}} className="img-fluid" alt="Editing" />
                         </div>
-                        <div className="col-md-6" id='animath8'>
+                        <div className="col-md-6" id='animath6'>
                             <h5 style={{ color: '#15c39a', marginTop:"25px" }}>Custom Services</h5>
-                            <h8 style={{ color: "#fd8b00" }} className="subheading">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h8>
+                            <h6 style={{ color: "#fd8b00" }} className="subheading">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h6>
                             <p className="text-muted">Send and receive files. Deliver digital assets in a secure environment.
                                 Share feedback in real time. Use GetLance Messages to communicate via text, chat, or video.
                                 Use our mobile app. Many features can be accessed on your mobile phone when on the go.</p>
@@ -136,7 +136,7 @@ const Service = () => {
             <section id='whyWatse' >
                 <div className='container' style={{ textAlign: "center", paddingTop: '50px', paddingBottom: "50px", color: "#079070" }}>
                     <h1>Why Waste Your Valuable Time</h1>
-                    <h8 style={{ color: "darkorange" }}>We have professional content developers on the floor to Write Quality Content for you.</h8>
+                    <h6 style={{ color: "darkorange" }}>We have professional content developers on the floor to Write Quality Content for you.</h6>
                     <h6>Contact us for further details.</h6>
                 </div>
                 <div className='container' style={{textAlign:'center', paddingBottom:"50px"}}>

@@ -12,7 +12,7 @@ const WorkSpeaks = () => {
                         <div className="card" style={{width:"20rem", border:'1px solid rgb(234, 236, 237)'}}>
                             <img className="card-img-top" src="https://www.write-right.in/img/soptop.webp" alt="Card image cap"/>
                                 <div className="card-body">
-                                    <h8 className="card-title">SOP for Canada Visa</h8>
+                                    <h6 className="card-title">SOP for Canada Visa</h6>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="/allServices" id='btnHvn' style={{fontSize:"15px"}} className="btn btn-primary">Go somewhere</a>
                                 </div>
@@ -22,7 +22,7 @@ const WorkSpeaks = () => {
                         <div className="card" style={{width:"20rem", border:'1px solid rgb(234, 236, 237)'}} >
                             <img className="card-img-top" src="https://www.write-right.in/img/soptop.webp" alt="Card image cap"/>
                                 <div className="card-body">
-                                    <h8 className="card-title">SOP for Canada Visa</h8>
+                                    <h6 className="card-title">SOP for Canada Visa</h6>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="/allServices"id='btnHvn' style={{fontSize:"15px"}} className="btn btn-primary">Go somewhere</a>
                                 </div>
@@ -32,7 +32,7 @@ const WorkSpeaks = () => {
                         <div className="card" style={{width:"20rem", border:'1px solid rgb(234, 236, 237)'}}>
                             <img className="card-img-top" src="https://www.write-right.in/img/soptop.webp" alt="Card image cap"/>
                                 <div className="card-body">
-                                    <h8 className="card-title">SOP for Canada Visa</h8>
+                                    <h6 className="card-title">SOP for Canada Visa</h6>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="/allServices" id='btnHvn' style={{fontSize:"15px"}}className="btn btn-primary">Go somewhere</a>
                                 </div>

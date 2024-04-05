@@ -5,7 +5,7 @@ const Dream = () => {
         <>
             <div className='container' style={{ textAlign: 'center', marginTop: '50px' }}>
                 <h5 style={{ color: '#15c39a' }}>We make your dream come true</h5>
-                <h8 style={{ marginTop: '25px' }}>Plagiarism-free, 100% original content curated by professional content writers</h8>
+                <h6 style={{ marginTop: '25px' }}>Plagiarism-free, 100% original content curated by professional content writers</h6>
                 <div className='btnTalk' style={{ textAlign: "center", marginTop: '50px' }}>
                     <a href="/contact_us" target='_blank'>
                         <button type="button" id='btnHvn' style={{ fontWeight: 'bold', fontSize: '20px' }} className="btn btn-primary">
