@@ -74,16 +74,16 @@ const Faq = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="accordion-item">
+                            {/* <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingThree">
                                     <button
                                         data-mdb-collapse-init
                                         className="accordion-button collapsed"
                                         type="button"
                                         data-mdb-toggle="collapse"
-                                        data-mdb-target="#collapseThree"
+                                        data-mdb-target="#collapseFour"
                                         aria-expanded="false"
-                                        aria-controls="collapseThree"
+                                        aria-controls="collapseFour"
                                     >
                                        What if I do not like the essay you write?
                                     </button>
@@ -101,9 +101,9 @@ const Faq = () => {
                                         className="accordion-button collapsed"
                                         type="button"
                                         data-mdb-toggle="collapse"
-                                        data-mdb-target="#collapseThree"
+                                        data-mdb-target="#collapseFive"
                                         aria-expanded="false"
-                                        aria-controls="collapseThree"
+                                        aria-controls="collapseFive"
                                     >
                                         Can I choose my writer?
                                     </button>
@@ -113,7 +113,7 @@ const Faq = () => {
                                     In order to ensure that all our clients get the best service, we assign the projects to our writers based on various parameters. You can rest assured that your essay is written by a writer with the right expertise and experience.
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div></div>
                 </div>
             </div>

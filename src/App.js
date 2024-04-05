@@ -16,6 +16,7 @@ import ShortContact from './components/ShortContact';
 import WhatApp from './components/WhatApp';
 import WorkSpeaks from './components/WorkSpeaks';
 import Faq from './components/Faq';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <WhatApp />
       <Acadmicimpact />
       <Faq />
+      <Testimonials/>
       <Footer />
     </>
   );
