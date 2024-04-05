@@ -1,0 +1,21 @@
+#bgServe {
+    position: relative;
+    opacity: 0.99;
+}
+
+#bgServe:before {
+    content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("https://img.freepik.com/premium-photo/grunge-background-with-space-text-image_196038-12647.jpg");
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.vl {
+  border-left: 1px solid #079070;
+  margin-left: 25px;
+  height: 525px;
+}

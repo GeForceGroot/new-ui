@@ -71,12 +71,14 @@ const Benifits = () => {
                     </div>
                 </div>
             </div>
-            <div className='btnTalk' style={{ textAlign: "center", marginTop:'75px' }}>
-                <button type="button" id='btnHvn' className="btn btn-primary btn-lg">
-                    <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
-                    Work with us</button>
+            <div className='btnTalk' style={{ textAlign: "center", marginTop: '75px' }}>
+                <a href="/contact_us" target='_blank'>
+                    <button type="button" id='btnHvn' className="btn btn-primary btn-lg">
+                        <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
+                        Work with us</button>
+                </a>
             </div>
-            <hr style={{ marginLeft: "150px", marginRight: "150px", marginTop: '75px', marginBottom:"100px", border: "2px solid #15c39a" }} />
+            <hr style={{ marginLeft: "150px", marginRight: "150px", marginTop: '75px', marginBottom: "100px", border: "2px solid #15c39a" }} />
         </>
     )
 }

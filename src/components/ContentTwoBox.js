@@ -31,10 +31,12 @@ const ContentTwoBox = () => {
                 </div>
             </div>
         </div>
-            <div className='btnTalk' style={{ textAlign: "center"}}>
-                <button type="button"  className="btn btn-primary" id='btnHv'>
-                    <img src="https://www.iconpacks.net/icons/1/free-phone-icon-505-thumb.png" width={'25px'} height={'25px'} style={{marginRight:'15px'}} alt="phone" />
-                    Talk to an expert</button>
+            <div className='btnTalk' style={{ textAlign: "center" }}>
+                <a href="/contact_us" target='_blank'>
+                    <button type="button" className="btn btn-primary" id='btnHv'>
+                        <img src="https://www.iconpacks.net/icons/1/free-phone-icon-505-thumb.png" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
+                        Talk to an expert</button>
+                </a>
             </div>
         </>
     )

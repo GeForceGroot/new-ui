@@ -22,12 +22,14 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='btnTalk' style={{ textAlign: "center" }}>
-                        <button type="button" id='portfolio' className="btn btn-primary ">
-                            <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
-                            Contact Us for complete content and documentation assistance.</button>
+                        <a href="/contact_us" target='_blank'>
+                            <button type="button" id='portfolio' className="btn btn-primary ">
+                                <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
+                                Contact Us for complete content and documentation assistance.</button>
+                        </a>
                     </div>
                 </section>
-                <hr style={{ marginLeft: "150px", marginRight: "150px", marginTop: '75px', marginBottom:"100px", border: "1px solid black" }} />
+                <hr style={{ marginLeft: "150px", marginRight: "150px", marginTop: '75px', marginBottom: "100px", border: "1px solid black" }} />
                 <footer className="text-center text-lg-start text-black mt-10" style={{ backgroundColor: '#f4f4f4', marginTop: '25px' }}>
                     <div className="p-4 pb-0">
                         <section>

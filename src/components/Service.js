@@ -115,10 +115,10 @@ const Service = () => {
                 <div className='container'>
                     <div className="row" style={{ marginTop: '100px' }}>
                         <div className="col-md-6 how-img" id='animath5'>
-                            <img src="https://smartstudyassist.com/wp-content/uploads/2024/03/pexels-andrea-piacquadio-3790805.jpg" style={{ marginTop: "15px", width:'550px', height:'310px'}} className="img-fluid" alt="Editing" />
+                            <img src="https://smartstudyassist.com/wp-content/uploads/2024/03/pexels-andrea-piacquadio-3790805.jpg" style={{width:'550px', height:'310px'}} className="img-fluid" alt="Editing" />
                         </div>
                         <div className="col-md-6" id='animath8'>
-                            <h5 style={{ color: '#15c39a' }}>Custom Services</h5>
+                            <h5 style={{ color: '#15c39a', marginTop:"25px" }}>Custom Services</h5>
                             <h8 style={{ color: "#fd8b00" }} className="subheading">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h8>
                             <p className="text-muted">Send and receive files. Deliver digital assets in a secure environment.
                                 Share feedback in real time. Use GetLance Messages to communicate via text, chat, or video.

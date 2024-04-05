@@ -13,9 +13,11 @@ const Carousel = () => {
                             <p className='nxtpara'>With Anjit VS academic writing services, getting selected by a reputed university for your favorite course is now easie</p>
                         </div>
                         <div className='btnTalk' >
-                            <button type="button" className="btn btn-primary " id='btnHvn'>
-                                <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
-                                Talk with an expert</button>
+                            <a href="/contact_us" target='_blank'>
+                                <button type="button" className="btn btn-primary " id='btnHvn'>
+                                    <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
+                                    Talk with an expert</button>
+                            </a>
                         </div>
                     </div>
                     <div className='col mtb41'>

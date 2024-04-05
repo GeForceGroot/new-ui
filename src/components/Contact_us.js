@@ -7,7 +7,7 @@ const Contact_us = () => {
             <section className='contactUs'>
                 <div className='container'>
                     <div className='row' >
-                        <div className='col' style={{ marginTop: '175px', marginBottom: '175px' }}>
+                        <div className='col' style={{ marginTop: '150px', marginBottom: '175px' }}>
                             <div className='phone' style={{ marginTop: '75px', display: 'flex' }}>
                                 <img style={{ marginTop: '15px' }} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoaOAd4729IT4l4BO3txtJZdE9Ifv_BED_mXw3U0S-9w&s" width={'40px'} height={'40px'} alt="" />
                                 <div className='mix' style={{ marginLeft: '20px' }}>
@@ -30,7 +30,7 @@ const Contact_us = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col' style={{ marginTop: '175px', marginBottom: '175px', textAlign: "center" }}>
+                        <div className='col' style={{ marginTop: '150px', marginBottom: '175px', textAlign: "center" }}>
                             {/* <!-- Contact 1 - Bootstrap Brain Component --> */}
                             <h5>Quick response and express delivery guaranteed !!!</h5>
                             <form className="form">

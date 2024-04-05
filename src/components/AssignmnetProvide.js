@@ -66,7 +66,7 @@ const AssignmnetProvide = () => {
                                 </div>
                             </div>
                         ) : (
-                            <div className="col-sm one-third" id='stdHelpH' onMouseLeave={handleHoverEnterI}>
+                            <div className="col-sm one-third" style={{ transition: "all 0.8s ease-in-out", transform: "translateX(.5%)", backgroundColor: "#b867f4", borderRadius: '15px', color: 'darkgre' }} id='stdHelpH' onMouseLeave={handleHoverEnterI}>
                                 <div className="overlay hexagon yellow" style={{ opacity: '1' }}>
                                     <span className="innerShape"></span>
                                     <h7>Study Help</h7>

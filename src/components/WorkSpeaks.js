@@ -14,7 +14,7 @@ const WorkSpeaks = () => {
                                 <div className="card-body">
                                     <h8 className="card-title">SOP for Canada Visa</h8>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" id='btnHvn' style={{fontSize:"15px"}} className="btn btn-primary">Go somewhere</a>
+                                    <a href="/allServices" id='btnHvn' style={{fontSize:"15px"}} className="btn btn-primary">Go somewhere</a>
                                 </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ const WorkSpeaks = () => {
                                 <div className="card-body">
                                     <h8 className="card-title">SOP for Canada Visa</h8>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#"id='btnHvn' style={{fontSize:"15px"}} className="btn btn-primary">Go somewhere</a>
+                                    <a href="/allServices"id='btnHvn' style={{fontSize:"15px"}} className="btn btn-primary">Go somewhere</a>
                                 </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const WorkSpeaks = () => {
                                 <div className="card-body">
                                     <h8 className="card-title">SOP for Canada Visa</h8>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" id='btnHvn' style={{fontSize:"15px"}}className="btn btn-primary">Go somewhere</a>
+                                    <a href="/allServices" id='btnHvn' style={{fontSize:"15px"}}className="btn btn-primary">Go somewhere</a>
                                 </div>
                         </div>
                     </div>
