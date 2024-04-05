@@ -1,7 +1,28 @@
 import React from 'react'
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 import '../style/contact-us.css'
 
 const Contact_us = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_rw2gu5k', 'template_ojz2pk8', form.current, {
+                publicKey: 'ljK8_Qd1p3N6fl0Bq',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                    alert('Thank you I will get back to you as soon as possible ! (:');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    }
     return (
         <>
             <section className='contactUs'>
@@ -11,21 +32,21 @@ const Contact_us = () => {
                             <div className='phone' style={{ marginTop: '75px', display: 'flex' }}>
                                 <img style={{ marginTop: '15px' }} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoaOAd4729IT4l4BO3txtJZdE9Ifv_BED_mXw3U0S-9w&s" width={'40px'} height={'40px'} alt="" />
                                 <div className='mix' style={{ marginLeft: '20px' }}>
-                                    <h7 style={{ color: "#15c39a" }}>TALK TO OUR CLIENT SUPPORT TEAM</h7>
+                                    <h6 style={{ color: "#15c39a" }}>TALK TO OUR CLIENT SUPPORT TEAM</h6>
                                     <h5 style={{ color: 'darkorange' }}>+919048 815 031</h5>
                                 </div>
                             </div>
                             <div className='phone' style={{ marginTop: '50px', display: 'flex' }}>
                                 <img style={{ marginTop: '15px' }} src='https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png' width={'40px'} height={'40px'} alt="" />
                                 <div className='mix' style={{ marginLeft: '20px' }}>
-                                    <h7 style={{ color: "#15c39a" }}>WRITE TO US ABOUT YOUR NEEDS</h7>
+                                    <h6 style={{ color: "#15c39a" }}>WRITE TO US ABOUT YOUR NEEDS</h6>
                                     <h5 style={{ color: 'darkorange' }}>xyz@gmail.com</h5>
                                 </div>
                             </div>
                             <div className='phone' style={{ marginTop: '50px', display: 'flex' }}>
                                 <img style={{ marginTop: '15px' }} src="https://www.svgrepo.com/show/493957/address.svg" width={'40px'} height={'40px'} alt="" />
                                 <div className='mix' style={{ marginLeft: '20px' }}>
-                                    <h7 style={{ color: "#15c39a" }}>TALK TO OUR CLIENT SUPPORT TEAM</h7>
+                                    <h6 style={{ color: "#15c39a" }}>TALK TO OUR CLIENT SUPPORT TEAM</h6>
                                     <h5 style={{ color: 'darkorange' }}>Building No: 902 - Tower 2, National Empress Gardens Vennala, Kochi, Kerala, Pin- 682028</h5>
                                 </div>
                             </div>
@@ -33,7 +54,7 @@ const Contact_us = () => {
                         <div className='col' style={{ marginTop: '150px', marginBottom: '175px', textAlign: "center" }}>
                             {/* <!-- Contact 1 - Bootstrap Brain Component --> */}
                             <h5>Quick response and express delivery guaranteed !!!</h5>
-                            <form className="form">
+                            <form ref={form} className="form" onSubmit={sendEmail}>
                                 <div className='row' id='rowForm' >
                                     <div className="col form-group" id='colForm'>
                                         <label htmlFor="name">Your Name (Required)</label>

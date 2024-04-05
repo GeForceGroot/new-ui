@@ -7,7 +7,7 @@ const Acadmicimpact = () => {
             <section className='hell' style={{ justifyContent: "center", textAlign: 'center', marginTop: '50px', }}>
                 <div className='ok' style={{ display: 'flex', justifyContent: 'center' }}>
                     <h4 style={{ padding: '7px', color: "#15c39a" }}>Academic Impact</h4>
-                    <img src="https://cdn-icons-png.flaticon.com/128/3281/3281323.png" width={'50px'} height={'50px'} style={{ marginRight: '25px' }} alt="" />
+                    <img src="https://cdn-icons-png.flaticon.com/128/3281/3281323.png" width={'40px'} height={'40px'} style={{ marginRight: '25px' }} alt="" />
                 </div>
                 <div className='container'>
                     <div className='row' style={{ marginTop: "50px", textAlign: 'center' }}>
