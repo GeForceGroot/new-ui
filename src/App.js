@@ -15,26 +15,27 @@ import ServiceHome from './components/ServiceHome';
 import ShortContact from './components/ShortContact';
 import WhatApp from './components/WhatApp';
 import WorkSpeaks from './components/WorkSpeaks';
+import Faq from './components/Faq';
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Carousel/>
-    <ConetentService/>
-    <ContentTwoBox/>
-    <Benifits/>
-    <OurProcess/>
-    <GlobalUniversity/>
-    <ShortContact/>
-    <AssignmnetProvide/>
-    <ServiceHome/>
-    <WorkSpeaks/>
-    <Dream/>
-    <WhatApp/>
-    <Acadmicimpact/>
-    {/* <Contact_us/> */}
-    <Footer/>
+      <Navbar />
+      <Carousel />
+      <ConetentService />
+      <ContentTwoBox />
+      <Benifits />
+      <OurProcess />
+      <GlobalUniversity />
+      <ShortContact />
+      <AssignmnetProvide />
+      <ServiceHome />
+      <WorkSpeaks />
+      <Dream />
+      <WhatApp />
+      <Acadmicimpact />
+      <Faq />
+      <Footer />
     </>
   );
 }
