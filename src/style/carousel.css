@@ -58,7 +58,7 @@
 .mtb40 {
   opacity: 1;
   /* Initially hide the text */
-  font-size: 30px;
+  font-size: 50px;
   animation: alternate-reverse;
   /* text-align: center; */
 }
@@ -67,7 +67,7 @@
   animation: oni 2s ;
 }
 .nxtpara{
-  font-size: 10px;
+  font-size: 15px;
 }
 
 
