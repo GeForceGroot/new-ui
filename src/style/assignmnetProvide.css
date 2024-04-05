@@ -1,0 +1,27 @@
+.one-third{
+    margin:5px ;
+}
+#stdHelpH{
+    background-color: #f467f4;
+    border-radius: 15px;
+}
+#stdHelpH:hover{
+    background-color: #f467f4;
+    border-bottom: 0px;
+}
+
+#stdHelpH::after{
+    content: "";
+  height: 100%; 
+  left: 0; 
+  top: 0; 
+  width: 0px;  
+  position: absolute; 
+  transition: all 0.3s ease 0s; 
+  -webkit-transition: all 0.3s ease 0s; 
+  z-index: -1;
+}
+#stdHelpH:hover::after{
+    width: 100%;
+}
+

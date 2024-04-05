@@ -1,5 +1,5 @@
 #carousel {
-  height: 500px;
+  height: 400px;
   /* Adjust height as needed */
   background-position: center;
   background-size: cover;
@@ -13,7 +13,7 @@
 
 .pro-status {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 22px;
   animation: alternate-reverse;
   opacity: 1;
   /* Initially hide the text */
@@ -43,7 +43,7 @@
 }
 #btnHvn{
   font-weight: bold;
-  font-size: 25px;
+  font-size: 17px;
   background-color: #15c39a;
   border: 1px solid #15c39a;
 }
@@ -58,7 +58,7 @@
 .mtb40 {
   opacity: 1;
   /* Initially hide the text */
-  font-size: 40px;
+  font-size: 30px;
   animation: alternate-reverse;
   /* text-align: center; */
 }
@@ -67,7 +67,7 @@
   animation: oni 2s ;
 }
 .nxtpara{
-  font-size: 20px;
+  font-size: 10px;
 }
 
 
@@ -91,7 +91,7 @@
 
 @media (min-width:990px) and (max-width: 1222px) {
   #carousel {
-    height: 700px;
+    height: 600px;
     /* Adjust height as needed */
     background-position: center;
     background-size: cover;
@@ -103,7 +103,7 @@
 
 @media (max-width: 989px) {
   #carousel {
-    height: 700px;
+    height: 600px;
     /* Adjust height as needed */
     background-position: center;
     background-size: cover;

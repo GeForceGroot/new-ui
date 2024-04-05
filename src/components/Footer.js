@@ -10,7 +10,7 @@ const Footer = () => {
                 <section className='portfolio' style={{ backgroundColor: "#f4f4f4" }}>
                     <div className='container' style={{ textAlign: "center" }}>
                         <img src="https://www.svgrepo.com/show/88683/woman.svg" style={{ marginTop: "100px" }} width={"100px"} height={"100px"} alt="logo" />
-                        <h3 style={{ marginTop: '50px', fontWeight: "bold" }}>Anijit Vs</h3>
+                        <h6 style={{ marginTop: '50px', fontWeight: "bold" }}>Anijit Vs</h6>
                         <p style={{ fontSize: "15px", marginTop: "30px" }}>An experienced and expert content writer in India, I have diverse teams delivering top-notch content writing, branding, and overseas education services customized to my clients. At AnjitVS, the biggest service offering specialty is our customization grounded on quality, creativity, and client-value.</p>
                     </div>
                     <div className='container' style={{ display: 'flex', fontWeight: 'bold', justifyContent: 'center' }}>

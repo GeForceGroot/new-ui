@@ -22,7 +22,7 @@
 #btnHv{
   margin-top: 50px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   background-color: #15c39a;
   border: 1px solid #15c39a;
 }
@@ -40,14 +40,14 @@
 #paraC1{
     display: block;
     margin-top: 25px; 
-    font-size: large;
+    font-size: medium;
     font-family: serif;
     margin-top: 15px;
 }
 #paraC2{
     display: block;
     margin-top: 25px; 
-    font-size: large;
+    font-size: medium;
     font-family: serif;
     color: white;
     margin-top: 15px;
@@ -55,7 +55,7 @@
 
 #ul1 {
     list-style: none;
-    font-size: larger;
+    font-size: medium;
     font-weight: 500;
     margin-left: -40px;
   }
@@ -65,7 +65,7 @@
   }
 #ul2 {
     list-style: none;
-    font-size: larger;
+    font-size: medium;
     font-weight: 500;
     margin-left: -40px;
     color: white;

@@ -7,7 +7,7 @@ const ContentTwoBox = () => {
             <div className='row' id='twoBox'>
                 <div className="col" id='col1'>
                     <img src="https://anjitvs.in/wp-content/uploads/2022/07/7371204.png" width={'60px'} height={'60px'} style={{ marginTop: '10px' }} alt="bookimage" />
-                    <h2 id='head21'>Writing Support before Admission</h2>
+                    <h5 id='head21'>Writing Support before Admission</h5>
                     <p id='paraC1'>Team Anjit VS creates admission and academic essays that students need throughout their academic journey. We help them apply successfully to their preferred universities with admission essays and create insightful assignments and dissertations for better grades and scores. We offer the following academic writing help.</p>
                     <ul id='ul1'>
                         <li>Admission Essays</li>
@@ -19,7 +19,7 @@ const ContentTwoBox = () => {
                 </div>
                 <div className="col" id='col2'>
                     <img src="https://anjitvs.in/wp-content/uploads/2022/07/7371204.png" width={'60px'} height={'60px'} style={{ marginTop: '10px' }} alt="bookimage" />
-                    <h2 id='head22'>Writing Support before Admission</h2>
+                    <h5 id='head22'>Writing Support before Admission</h5>
                     <p id='paraC2'>Team Anjit VS creates admission and academic essays that students need throughout their academic journey. We help them apply successfully to their preferred universities with admission essays and create insightful assignments and dissertations for better grades and scores. We offer the following academic writing help.</p>
                     <ul id='ul2'>
                         <li>Admission Essays</li>
@@ -32,7 +32,7 @@ const ContentTwoBox = () => {
             </div>
         </div>
             <div className='btnTalk' style={{ textAlign: "center"}}>
-                <button type="button"  className="btn btn-primary btn-lg" id='btnHv'>
+                <button type="button"  className="btn btn-primary " id='btnHv'>
                     <img src="https://www.iconpacks.net/icons/1/free-phone-icon-505-thumb.png" width={'25px'} height={'25px'} style={{marginRight:'15px'}} alt="phone" />
                     Talk to an expert</button>
             </div>

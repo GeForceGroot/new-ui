@@ -10,12 +10,12 @@ const Faq = () => {
                 <div className='row'>
                     <div className='col'>
                         <h4 style={{ color: "#15c39a" }}>Academic Essays</h4>
-                        <h1>Frequently Asked Questions</h1>
+                        <h4>Frequently Asked Questions</h4>
                     </div>
                     <div className='col'>
                         <div className="accordion" id="accordionExample">
                             <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingOne">
+                                <h5 className="accordion-header" id="headingOne">
                                     <button
                                         data-mdb-collapse-init
                                         className="accordion-button"
@@ -27,7 +27,7 @@ const Faq = () => {
                                     >
                                         How do you ensure that the essays are original and plagiarism-free?
                                     </button>
-                                </h2>
+                                </h5>
                                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-mdb-parent="#accordionExample">
                                     <div className="accordion-body">
                                         With every essay that we write, we conduct multiple quality assessment reviews and tests. These tests also include plagiarism-checking using powerful, industry-leading tools. You can also get a plagiarism report with every essay that we deliver.
@@ -35,7 +35,7 @@ const Faq = () => {
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingTwo">
+                                <h5 className="accordion-header" id="headingTwo">
                                     <button
                                         data-mdb-collapse-init
                                         className="accordion-button collapsed"
@@ -47,7 +47,7 @@ const Faq = () => {
                                     >
                                         Are your academic writings affordable?
                                     </button>
-                                </h2>
+                                </h5>
                                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
                                     <div className="accordion-body">
                                         If you check the industry, academic writing is not a cheap service. As the quality needs to be top-notch and every essay involves extensive research, it takes time for essays to finish. Therefore, no academic essays can be cheap. However, we ensure to provide affordable academic writing and the best price in the market.
@@ -55,7 +55,7 @@ const Faq = () => {
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingThree">
+                                <h5 className="accordion-header" id="headingThree">
                                     <button
                                         data-mdb-collapse-init
                                         className="accordion-button collapsed"
@@ -67,7 +67,7 @@ const Faq = () => {
                                     >
                                         How long do you take to write the papers?
                                     </button>
-                                </h2>
+                                </h5>
                                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#accordionExample">
                                     <div className="accordion-body">
                                     Although we cannot commit to a definite time, an academic essay can usually take anywhere from 3-5 business days. On the other hand, admission essays can only take 2-3 business days. However, the exact time will depend on the essay’s nature and requirements.
@@ -75,7 +75,7 @@ const Faq = () => {
                                 </div>
                             </div>
                             {/* <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingThree">
+                                <h5 className="accordion-header" id="headingThree">
                                     <button
                                         data-mdb-collapse-init
                                         className="accordion-button collapsed"
@@ -87,7 +87,7 @@ const Faq = () => {
                                     >
                                        What if I do not like the essay you write?
                                     </button>
-                                </h2>
+                                </h5>
                                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#accordionExample">
                                     <div className="accordion-body">
                                     We have a free revision policy that you can use to provide us with feedback and get revisions for the parts that you did not like.
@@ -95,7 +95,7 @@ const Faq = () => {
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingThree">
+                                <h5 className="accordion-header" id="headingThree">
                                     <button
                                         data-mdb-collapse-init
                                         className="accordion-button collapsed"
@@ -107,7 +107,7 @@ const Faq = () => {
                                     >
                                         Can I choose my writer?
                                     </button>
-                                </h2>
+                                </h5>
                                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#accordionExample">
                                     <div className="accordion-body">
                                     In order to ensure that all our clients get the best service, we assign the projects to our writers based on various parameters. You can rest assured that your essay is written by a writer with the right expertise and experience.

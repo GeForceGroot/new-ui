@@ -5,10 +5,10 @@ const Testimonials = () => {
     return (
         <>
             <div className='container' style={{ textAlign: 'center' }}>
-                <h3 style={{ color: "#15c39a" }}>Reviews of the students and researchers<br />we have helped</h3>
+                <h5 style={{ color: "#15c39a" }}>Reviews of the students and researchers<br />we have helped</h5>
                 <p style={{ fontSize: "18px", marginTop: "25px" }}>Trusted by over 2800+ students who no longer struggle with SOP, LOR, Resume and Academic Writing.</p>
                 <img style={{ marginTop: '50px' }} src="https://www.write-right.in/img/reviewdesk.webp" alt="studnets" />
-                <h3 style={{ marginTop: '100px', color:'#15c39a' }}>Testimonials</h3>
+                <h5 style={{ marginTop: '100px', color:'#15c39a' }}>Testimonials</h5>
                 <h4 style={{ marginTop: '20px' }}>Fulfilling your academic dreams</h4>
             </div>
             <div className='container' style={{marginTop:"100px", marginBottom:"100px"}}>

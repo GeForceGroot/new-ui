@@ -11,7 +11,7 @@ const ShortContact = () => {
                         <div className='col' >
                             <div className='kl'>
                                 <img style={{ color: "rgb(19 70 58)" }} src="https://www.svgrepo.com/show/5236/phone-call.svg" width={'60px'} height={'60x'} alt="phone" />
-                                <h2 style={{ marginTop: '25px', color: "rgb(19 70 58)" }}>Book an Exclusive Call for writing help</h2>
+                                <h5 style={{ marginTop: '25px', color: "rgb(19 70 58)" }}>Book an Exclusive Call for writing help</h5>
                                 <p style={{ fontSize: '16px' }}>We have served thousands of clients from a wide range of business domains from around the world.</p>
                             </div>
                         </div>
