@@ -1,9 +1,14 @@
-#colUni{
-    margin-top: 150px;
-    animation: oni 4s;
-}
-#imgani{
-    animation: cni 4s;
+#colUni {
+  margin-top: 150px;
+  animation: oni 4s;
 }
 
+#imgani {
+  animation: cni 4s;
+}
 
+@media (max-width: 410px) {
+  #uni1 img {
+    width: 300px;
+  }
+}

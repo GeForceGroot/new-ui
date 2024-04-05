@@ -78,6 +78,10 @@
       /* Adjust width for smaller screens */
       width: calc(100% - 180px); /* Subtract label width */
     }
+    .midContac{
+      display: none;
+    }
+
   }
   
   /* For even smaller screens (very small screens) */

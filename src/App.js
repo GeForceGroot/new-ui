@@ -21,11 +21,14 @@ import Testimonials from './components/Testimonials';
 import About_us from './components/About_us';
 import Service from './components/Service';
 import Contact_us from './components/Contact_us'
+import UpperBar from './components/UpperBar';
+
 
 
 function App() {
   return (
     <>
+      <UpperBar />
       <Navbar />
       <Router>
         <Switch>

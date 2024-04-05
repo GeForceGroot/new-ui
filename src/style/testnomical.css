@@ -1,19 +1,15 @@
-#writerImagse{
+#writeImg{
     margin-top: 50px;
 }
 
-@media (min-width:'800px') and (max-width:'1200px') {
-    #writerImagse{
-        width: 800px;
+@media (min-width: 800px) and (max-width: 1200px) {
+    #writeImg img {
+      width: 800px;
     }
-}
-@media (min-width:'500px') and (max-width:'799px') {
-    #writerImagse{
-        width: 510px;
+  }
+  @media (max-width: 799px) {
+    #writeImg img {
+      display: none;
     }
-}
-@media (max-width:'799px') {
-    #writerImagse{
-        width: 350px;
-    }
-}
+  }
+
