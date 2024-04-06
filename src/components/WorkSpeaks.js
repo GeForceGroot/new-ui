@@ -7,7 +7,7 @@ const WorkSpeaks = () => {
         <>
             <section className='container' style={{ textAlign: "center", marginTop: "50px" }}>
                 <h5 style={{ color: "#15c39a" }}>Our work speaks it all</h5>
-                <div className='row' style={{ marginTop: '50px' }}>
+                <div className='row' style={{ marginTop: '50px'}}>
                     <div className='col-sm'>
                         <div className="card" style={{width:"20rem", border:'1px solid rgb(234, 236, 237)'}}>
                             <img className="card-img-top" src="https://www.write-right.in/img/soptop.webp" alt="Card image cap"/>

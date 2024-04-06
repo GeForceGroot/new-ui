@@ -22,12 +22,12 @@ const UpperBar = () => {
                         </div>
                         <div className="form-inline my-lg-0">
                             <a style={{marginBottom:'14px'}} href="https://www.facebook.com/shruti.assignments" target='_blank'>
-                                <img src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg" style={{ marginRight: '30px' }} alt="Facebook" width={'20px'} height={'20px'} />
+                                <img src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg" style={{ marginRight: '15px' }} alt="Facebook" width={'30px'} height={'30px'} />
                             </a>
                             <a style={{marginBottom:'14px'}} href="https://www.instagram.com/shruti.assignments/?utm_source=qr&igsh=MWgwaDV1djF5ejB3bw%3D%3D" target='_blank'>
-                                <img src="https://cdn.iconscout.com/icon/free/png-256/free-instagram-1946323-1646407.png?f=webp" style={{ marginRight: '20px' }} alt="x" width={'20px'} height={'20px'} />
+                                <img src="https://cdn.iconscout.com/icon/free/png-256/free-instagram-1946323-1646407.png?f=webp" style={{ marginRight: '20px' }} alt="x" width={'30px'} height={'30px'} />
                             </a>
-                            <a style={{marginBottom:'14px'}} href="https://www.linkedin.com/in/shruti-jain-ab953a20/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'>
+                            <a style={{marginBottom:'20px'}} href="https://www.linkedin.com/in/shruti-jain-ab953a20/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'>
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" style={{ marginRight: '10px' }} alt="LInkedIn" width={'20px'} height={'20px'} />
                             </a>
                         </div>
