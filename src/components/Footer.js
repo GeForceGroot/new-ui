@@ -50,7 +50,7 @@ const Footer = () => {
                                     <h6 className="text-uppercase mb-4 font-weight-bold">Smart Study Help</h6>
                                     <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </div>
-                                <hr className="w-100 clearfix d-md-none" />
+                                <hr className="w-100 clearfix d-md-none" id='lineFix' />
                                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                                     <h6 className="text-uppercase mb-4 font-weight-bold">Services</h6>
                                     <p><a className="text-black">100% originality guaranteed</a></p>
@@ -58,7 +58,7 @@ const Footer = () => {
                                     <p><a className="text-black">Affordable price</a></p>
                                     <p><a className="text-black">24*7 online support</a></p>
                                 </div>
-                                <hr className="w-100 clearfix d-md-none" />
+                                <hr className="w-100 clearfix d-md-none" id='lineFix' />
                                 <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                                     <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
                                     <p><img style={{ marginBottom: '8px' }} width={'20px'} height={'20px'} src='https://www.svgrepo.com/show/13696/house.svg' /> :- 73 B Block, Padmapur, Sri Ganganagar</p>
