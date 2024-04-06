@@ -15,7 +15,7 @@ const Footer = () => {
                         <p style={{ fontSize: "15px", marginTop: "30px" }}>An experienced and expert content writer in India, I have diverse teams delivering top-notch content writing, branding, and overseas education services customized to my clients. At shruti, the biggest service offering specialty is our customization grounded on quality, creativity, and client-value.</p>
                     </div>
                     <div className='container' style={{ display: 'flex', fontWeight: 'bold', justifyContent: 'center' }} id='foornabvar'>
-                        <ul style={{ display: 'flex', marginTop: '20px', listStyleType:'none' }}>
+                        <ul id='unOrderFoot' >
                             <a href="/" style={{ color: 'black', textDecoration: 'none' }}>
                                 <li style={{ marginLeft: "30px" }}>Home</li>
                             </a>

@@ -11,16 +11,32 @@
     border-radius: 50px;
     border: 1px solid #15c39a;
 }
+#unOrderFoot{
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+}
 
 
 @media (max-width: 750px) {
     #portfolio{
-        opacity: 0;
+        display: none;
     }
 }
 
-@media (max-width:550px) {
+@media (min-width:'490px') and (max-width:550px) {
     #foornabvar{
         margin-left: -40px;
+    }
+}
+
+@media (max-width: 489px) {
+    #foornabvar{
+        display: inline;
+    }
+    #unOrderFoot{
+        display: inline;
+        text-align: center;
+        margin-left: -33px;
     }
 }

@@ -93,9 +93,10 @@
 #prefer1 {
   margin-top: 50px;
 }
-
 #prefer2 {
+  margin-top: 50px;
 }
+
 
 /* Style the content boxes */
 .prefer .item {
@@ -130,6 +131,12 @@
   .prefer .item {
     margin-bottom: 20px;
     /* Reduce spacing between boxes */
+  }
+  .one-third {
+    /* margin: 30px; */
+    margin-left: 0px;
+    padding-top: 15px;
+    font-size: large;
   }
 }
 

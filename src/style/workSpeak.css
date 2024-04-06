@@ -1,0 +1,24 @@
+#workSpeakFix {
+    margin-top: 50px;
+}
+
+
+@media (min-width:'1200px') {
+    #columeLeft {
+        margin-left: 65px;
+    }
+}
+
+
+@media (min-width:'500px') and (max-width:'700px') {
+    #workSpeakFix {
+        margin-top: 40px;
+        margin-left: 105px;
+    }
+}
+
+@media (max-width:'499px') {
+    #workSpeakFix {
+        margin-left: 10px;
+    }
+}
