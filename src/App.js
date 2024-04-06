@@ -22,7 +22,8 @@ import About_us from './components/About_us';
 import Service from './components/Service';
 import Contact_us from './components/Contact_us'
 import UpperBar from './components/UpperBar';
-
+import Protfolio from './components/Protfolio';
+import PagePort1 from './components/Page1Port';
 
 
 function App() {
@@ -56,6 +57,12 @@ function App() {
           </Route>
           <Route path="/contact_us">
             <Contact_us />
+          </Route>
+          <Route path='/portfolio'>
+            <Protfolio />
+          </Route>
+          <Route path='/portolio_1'>
+            <PagePort1/>
           </Route>
         </Switch>
       </Router>

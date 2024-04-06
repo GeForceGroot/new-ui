@@ -18,3 +18,9 @@
         opacity: 0;
     }
 }
+
+@media (max-width:550px) {
+    #foornabvar{
+        margin-left: -40px;
+    }
+}

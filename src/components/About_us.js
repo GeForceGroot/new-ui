@@ -35,7 +35,7 @@ const About_us = () => {
                         <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/value-4373784-3622263.png?f=webp" alt="Value" width={'40px'} height={'40px'} />
                         <div className="vl">
                             <h4 style={{ marginTop: '10px' }}>OUR VALUES</h4>
-                            <p style={{ fontWeight: "bold", listStyleType: 'none', marginTop:'40px' }}>Customer Satisfaction</p>
+                            <p style={{ fontWeight: "bold", listStyleType: 'none', marginTop: '40px' }}>Customer Satisfaction</p>
                             <p style={{ fontSize: "16px", marginTop: '10px', marginLeft: '30px' }}>Your satisfaction is our success. That's why we offer round-the-clock support to address any questions or concerns you may have, ensuring a smooth and hassle-free experience.</p>
                             <p style={{ fontWeight: "bold", listStyleType: 'none' }}>Our Commitment to Quality</p>
                             <p style={{ fontSize: "16px", marginTop: '10px', marginLeft: '30px' }}>Your satisfaction is our success. That's why we offer round-the-clock support to address any questions or concerns you may have, ensuring a smooth and hassle-free experience.</p>
@@ -45,8 +45,70 @@ const About_us = () => {
                     </div>
                 </div>
             </div>
-            <div className='container'>
-                
+            <div className='container' style={{ marginBottom: "100px" }}>
+                <h2 style={{ marginBottom: "100px", color: "#15c39a", textAlign: 'center' }}>WHY IT’S A GOOD IDEA TO ENTRUST US WITH YOUR PAPER</h2>
+                <div className='row'>
+                    <div className='col-sm'>
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='col-2'><h2 style={{ color: "#ffb806" }}>01.</h2></div>
+                                <div className='col'><p style={{ fontSize: '21px', fontWeight: "400", marginTop: "8px", color: 'black', textAlign: 'start' }}>We select only the best experts</p>
+                                    <p style={{ fontSize: '18px' }}>All the specialists who wish to work with us pass several tests and regularly develop their skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-sm'>
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='col-2'><h2 style={{ color: "#ffb806" }}>02.</h2></div>
+                                <div className='col'><p style={{ fontSize: '21px', fontWeight: "400", marginTop: "8px", color: 'black', textAlign: 'start' }}>We guarantee privacy</p>
+                                    <p style={{ fontSize: '18px' }}>We never disclose your personal information publicly. All phone numbers and email addresses are only used to communicate and deliver papers to our customers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-sm'>
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='col-2'><h2 style={{ color: "#ffb806" }}>03.</h2></div>
+                                <div className='col'><p style={{ fontSize: '21px', fontWeight: "400", marginTop: "8px", color: 'black', textAlign: 'start' }}>We select only the best experts</p>
+                                    <p style={{ fontSize: '18px' }}>All the specialists who wish to work with us pass several tests and regularly develop their skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-sm'>
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='col-2'><h2 style={{ color: "#ffb806" }}>04.</h2></div>
+                                <div className='col'><p style={{ fontSize: '21px', fontWeight: "400", marginTop: "8px", color: 'black', textAlign: 'start' }}>We select only the best experts</p>
+                                    <p style={{ fontSize: '18px' }}>All the specialists who wish to work with us pass several tests and regularly develop their skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-sm'>
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='col-2'><h2 style={{ color: "#ffb806" }}>05.</h2></div>
+                                <div className='col'><p style={{ fontSize: '21px', fontWeight: "400", marginTop: "8px", color: 'black', textAlign: 'start' }}>We guarantee privacy</p>
+                                    <p style={{ fontSize: '18px' }}>We never disclose your personal information publicly. All phone numbers and email addresses are only used to communicate and deliver papers to our customers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-sm' style={{paddingBottom:"10px"}}>
+                        <div className='state container'>
+                            <div className='innerItem' style={{marginTop:"50px"}}>
+                                <span style={{ color: "#ffb806", fontSize: '40px', fontWeight: '500' }}>97.98%</span>
+                                <h6>Of Our all order deliverd on time</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )

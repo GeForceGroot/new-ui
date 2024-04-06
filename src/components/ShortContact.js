@@ -1,7 +1,28 @@
 import React from 'react'
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 import '../style/midContac.css'
 
 const ShortContact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_rw2gu5k', 'template_ojz2pk8', form.current, {
+                publicKey: 'ljK8_Qd1p3N6fl0Bq',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                    alert('Thank you I will get back to you as soon as possible ! (:');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    }
+
     return (
         <>
             <section className='midContac'>
@@ -16,7 +37,7 @@ const ShortContact = () => {
                             </div>
                         </div>
                         <div className='col' style={{ marginLeft: '100px' }}>
-                            <form className="form">
+                            <form className="form" ref={form} onSubmit={sendEmail}>
                                 <div className='row'>
                                     <div className="col form-group">
                                         <label htmlFor="name">Your Name (Required)</label>
