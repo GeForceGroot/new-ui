@@ -24,4 +24,13 @@
 #stdHelpH:hover::after{
     width: 100%;
 }
+#provideAss{
+    margin-top: 50px;
+    text-align: center;
+}
+@media (max-width:575px) {
+    #provideAss{
+        text-align: center;
+    }
+}
 

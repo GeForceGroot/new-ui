@@ -31,3 +31,18 @@
     box-shadow: 3px 3px 6px 6px rgb(204, 203, 203);
   }  
 }
+@media (max-width:650px) {
+  .vl{
+    border-left: none;
+    margin-left: -25px;
+  } 
+}
+@media (max-width:380px) {
+  #valueImg img{
+    margin-left: -20px;
+    margin-top:70px;
+  }
+  .innerItem{
+    text-align: center;
+  }
+}

@@ -31,7 +31,7 @@ const About_us = () => {
                             <p style={{ fontSize: "18px", marginTop: '40px', marginLeft: '30px' }}>Meet the dedicated professionals behind Smart Study Assist. Our team consists of certified and experienced writers who are committed to delivering top-quality work tailored to your needs.Ready to take your academic performance to the next level? Get started with Smart Study Assist today and experience the difference our personalized assistance can make.</p>
                         </div>
                     </div>
-                    <div className='col-sm'>
+                    <div className='col-sm' id='valueImg'>
                         <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/value-4373784-3622263.png?f=webp" alt="Value" width={'40px'} height={'40px'} />
                         <div className="vl">
                             <h4 style={{ marginTop: '10px' }}>OUR VALUES</h4>
@@ -45,7 +45,7 @@ const About_us = () => {
                     </div>
                 </div>
             </div>
-            <div className='container' style={{ marginBottom: "100px" }}>
+            <div className='container' style={{ marginBottom: "100px" }} id='abtPoint'>
                 <h2 style={{ marginBottom: "100px", color: "#15c39a", textAlign: 'center' }}>WHY IT’S A GOOD IDEA TO ENTRUST US WITH YOUR PAPER</h2>
                 <div className='row'>
                     <div className='col-sm'>
