@@ -57,7 +57,7 @@ const AssignmnetProvide = () => {
                     <div className="text-center section-heading" >
                         <h4>🧑🏻‍🏫Types of Assignment We provide!</h4>
                     </div>
-                    <div className="row" id='provideAss' style={{marginTop:'50px'}}>
+                    <div className="row" id='provideAss' >
                         {hoverI ? (
                             <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveI}>
                                 <div className="hex" style={{ opacity: '1' }}>
