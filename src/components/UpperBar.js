@@ -6,7 +6,7 @@ import '../style/upperbar.css'
 const UpperBar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#f6f6f6' }} id='upBar'>
+            <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#f6f6f6', marginBottom:"-20px" }} id='upBar'>
                 <div className='container'>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
