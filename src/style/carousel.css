@@ -6,10 +6,6 @@
   
 }
 
-.bgImg{
-}
-
-
 
 .pro-status {
   font-weight: 500;
@@ -60,10 +56,10 @@
   /* Initially hide the text */
   font-size: 50px;
   animation: alternate-reverse;
-  /* text-align: center; */
 }
 .mtb41{
   margin-right: -250px;
+  margin-top: -45px;
   animation: oni 2s ;
 }
 .nxtpara{
@@ -96,6 +92,11 @@
     background-position: center;
     background-size: cover;
   }
+  #imgBgCS{
+    margin-top: 70px;
+    margin-right: 125px;
+    animation: oni 2s ;
+  }
   #rM{
     margin-top: 0;
   }
@@ -109,7 +110,7 @@
     background-size: cover;
   }
   .mtb41 {
-    opacity: 0;
+    display: none;
     /* Adjust height as needed */
     background-position: center;
     background-size: cover;

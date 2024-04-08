@@ -7,12 +7,12 @@ const Faq = () => {
     return (
         <>
             <div className='container' style={{ alignItems: "center", marginTop: "150px", marginBottom: '150px' }}>
-                <div className='row'>
+                <div className='row' id='faqRow'>
                     <div className='col'>
                         <h4 style={{ color: "#15c39a" }}>Academic Essays</h4>
                         <h4>Frequently Asked Questions</h4>
                     </div>
-                    <div className='col'>
+                    <div className='col' id='colFaq'>
                         <div className="accordion" id="accordionExample">
                             <div className="accordion-item">
                                 <h5 className="accordion-header" id="headingOne">

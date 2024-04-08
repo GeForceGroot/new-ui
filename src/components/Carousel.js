@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/carousel.css'
+import image from '../style/BannerImage_2.0.jpg'
 
 const Carousel = () => {
     return (
@@ -21,7 +22,7 @@ const Carousel = () => {
                         </div>
                     </div>
                     <div className='col mtb41'>
-                        <img src="https://anjitvs.in/wp-content/uploads/2022/09/business-desktop-870-x2-1536x980.webp" height={"400px"} alt="" />
+                        <img id='imgBgCS' src={image} height={"400px"} alt="" />
                     </div>
                 </div>
             </div>
