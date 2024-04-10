@@ -7,7 +7,7 @@ const ServiceHome = () => {
             <section id='srviceBgset'>
                 <div className='container servecieHome' id='servecieHome'>
                     <div className='hellooo' style={{ textAlign: "center" }}>
-                        <h4 style={{ marginTop: '25px', paddingTop: '25px' }}>Our services cater to all your academic needs, including</h4>
+                        <h4 style={{ marginTop: '25px', paddingTop: '25px' }}>Our Services Cater To All Your Academic Needs, Including</h4>
                     </div>
                     <div className='row' style={{ marginTop: '50px', textAlign: 'center' }} id='servrRow'>
                         <div className='col' id='serverCol'>

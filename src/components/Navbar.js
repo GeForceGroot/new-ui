@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import logoImage from '../style/logo_stdsmdhlp.jpg'
+import '../style/navbarCss.css'
 
 const Navbar = () => {
     return (
@@ -8,9 +10,9 @@ const Navbar = () => {
                 <div className='container'>
                     <nav className="navbar navbar-expand-lg navbar-light">
                         <a className="navbar-brand" href="/">
-                            <img style={{ borderRadius: '25px' }} src="https://us.123rf.com/450wm/jemastock/jemastock1912/jemastock191234019/135899450-delivery-clipboard-with-hourglass-and-pencil-symbols-vector-illustration-graphic-design.jpg?ver=6" width="40" height="40" alt="logo" />
+                            <img style={{ borderRadius: '25px' }} src={logoImage} width="60" height="60" alt="logo" />
                         </a>
-                        <a className="navbar-brand" href="/" style={{ fontSize: "20px" }}>Navbar</a>
+                        <a className="navbar-brand" href="/" >Smart Study Assist</a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>

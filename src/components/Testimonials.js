@@ -6,13 +6,13 @@ const Testimonials = () => {
     return (
         <>
             <div className='container' style={{ textAlign: 'center' }}>
-                <h5 style={{ color: "#15c39a" }}>Reviews of the students and researchers<br />we have helped</h5>
-                <p style={{ fontSize: "18px", marginTop: "25px" }}>Trusted by over 2800+ students who no longer struggle with SOP, LOR, Resume and Academic Writing.</p>
+                <h5 style={{ color: "#15c39a" }}>Reviews Of The Students And Researchers<br />We Have Helped</h5>
+                <p style={{ fontSize: "18px", marginTop: "25px" }}>Trusted by over 1041+ students who no longer struggle with Essay Writing, Blog Report Writing, Thesis Writing and Academic Writing.</p>
                 <div  id='writeImg'>
                     <img src="https://www.write-right.in/img/reviewdesk.webp" alt="studnets" />
                 </div>
                 <h5 style={{ marginTop: '100px', color: '#15c39a' }}>Testimonials</h5>
-                <h4 style={{ marginTop: '20px' }}>Fulfilling your academic dreams</h4>
+                <h4 style={{ marginTop: '20px' }}>Fulfilling Your Academic Dreams</h4>
             </div>
             <div className='container' style={{ marginTop: "100px", marginBottom: "100px" }}>
                 <div className="row text-center">

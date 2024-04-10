@@ -9,10 +9,10 @@ const Carousel = () => {
                 <div className='row' id='rM'>
                     <div className='col'>
                         <div className='wow container fadeInUp pst'>
-                            <span className="pro-status">Before and After Admission</span>
-                            <p className="mtb40">Comprehensive academic writing services for students</p>
+                            {/* <span className="pro-status">Before and After Admission</span> */}
+                            <p className="mtb40">Comprehensive Academic Writing Services For Students</p>
                             <p className='nxtpara'>Assignments by Shruti Jain: Trust us to help you achieve
-                            academic success <br/>  with our tailored writing solutions.</p>
+                            academic success with our tailored writing solutions.</p>
                         </div>
                         <div className='btnTalk' >
                             <a href="/contact_us" target='_blank'>

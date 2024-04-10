@@ -30,11 +30,11 @@ const Footer = () => {
                             </a>
                         </ul>
                     </div>
-                    <div className='btnTalk' style={{ textAlign: "center", marginLeft: "40px" }}>
+                    <div className='btnTalk' style={{ textAlign: "center" }}>
                         <a href="/contact_us" target='_blank'>
                             <button type="button" id='portfolio' className="btn btn-primary ">
                                 <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />
-                                Contact Us for complete content and documentation assistance.</button>
+                                Contact Us for assistance.</button>
                         </a>
                     </div>
                 </section>
@@ -45,7 +45,7 @@ const Footer = () => {
                             <div className="row">
                                 <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                                     <h6 className="text-uppercase mb-4 font-weight-bold">Smart Study Help</h6>
-                                    <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p>Welcome to Smart Study Assist, your reliable companion in achieving academic success through our writing assistance services. Established with the mission to empower students in their educational endeavors, we excel in delivering customized support to individuals across diverse disciplines and academic levels.</p>
                                 </div>
                                 <hr className="w-100 clearfix d-md-none" id='lineFix' />
                                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">

@@ -1,10 +1,16 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import '../style/aboutUs.css'
+import { Helmet } from 'react-helmet'
 
 const About_us = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <meta name='description' content='Smart Study Assist: Your academic writing partner! Expert assistance for essays, research papers & more. Quality, reliability, and excellence guaranteed.' />
+                <title>Empowering Academic Excellence: Smart Study Assist - About Us</title>
+            </Helmet>
             <section id='bgServe'>
                 <div className="container" style={{ textAlign: 'center' }} >
                     <h3 id='animath5' style={{ color: "#15c39a", paddingTop: "100px" }} className="block-sub__title">About Us </h3>
@@ -26,7 +32,7 @@ const About_us = () => {
                         <img src="https://i.pinimg.com/564x/62/65/ee/6265eead1e6bd8ca6a3da000ec5e7712.jpg" alt="Vision" width={'40px'} height={'40px'} />
                         <div className="vl">
                             <h4 style={{ marginTop: '10px' }}>OUR VISSION</h4>
-                            <p style={{ fontSize: "18px", marginTop: '40px', marginLeft: '30px' }}>Welcome to Smart Study Assist, where our vision is to empower students on their academic journey through personalized assistance and unwavering support.<br/>Meet the dedicated professionals behind Smart Study Assist. </p>
+                            <p style={{ fontSize: "18px", marginTop: '40px', marginLeft: '30px' }}>Welcome to Smart Study Assist, where our vision is to empower students on their academic journey through personalized assistance and unwavering support.<br />Meet the dedicated professionals behind Smart Study Assist. </p>
                         </div>
                     </div>
                     <div className='col-sm' id='valueImg'>
@@ -96,9 +102,9 @@ const About_us = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-sm' style={{paddingBottom:"10px"}}>
+                    <div className='col-sm' style={{ paddingBottom: "10px" }}>
                         <div className='state container'>
-                            <div className='innerItem' style={{marginTop:"50px"}}>
+                            <div className='innerItem' style={{ marginTop: "50px" }}>
                                 <span style={{ color: "#ffb806", fontSize: '40px', fontWeight: '500' }}>97.98%</span>
                                 <h6>Of Our all order deliverd on time</h6>
                             </div>

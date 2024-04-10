@@ -7,28 +7,17 @@ const ContentTwoBox = () => {
             <div className='row' id='twoBox'>
                 <div className="col" id='col1'>
                     <img src="https://anjitvs.in/wp-content/uploads/2022/07/7371204.png" width={'40px'} height={'40px'} style={{ marginTop: '10px' }} alt="bookimage" />
-                    <h4 id='head21'>Writing Support before Admission</h4>
-                    <p id='paraC1'>Meet Shruti Jain, our dedicated assignment expert at Smart Study Assist. With extensive experience and deep expertise in academic writing, Shruti is committed to crafting top-quality assignments tailored to your unique requirements. At Smart Study Assist, we offer a range of academic writing services including</p>
+                    <h4 id='head21'>Our Promises as a Reliable Content Writing Agency in India</h4>
+                    <p id='paraC1'>With Das Writing Services as your SEO content partner, you get access to the world of rank-worthy web pages and other pieces of write-ups at the most affordable rates. For us, the quality of the service is of utmost importance. To ensure we craft high-quality content, we tread the extra mile to customise all write-ups to match your business and industry. We know that communication is the key to a successful relationship with customers. For that, you need to reach out to them when they are searching for you or the products you offer. As an expert content writing agency, we can assure you that you get:</p>
                     <ul id='ul1'>
-                        <li>Admission Essays</li>
-                        <li>Statements of Purpose</li>
-                        <li>Personal Statements</li>
-                        <li>Motivation Letters</li>
-                        <li>Recommendation Letters</li>
+                        <li>Fully In-House Managed Teams</li>
+                        <li>Professional Writing Services</li>
+                        <li>Prompt Meetings with Writers & Editors</li>
+                        <li>Dedicated Research & Development team   </li>
+                        <li>Search Essentials Optimised Content</li>
+                        <li>Scalable Writing Exclusive to Your Requirements</li>
                     </ul>
-                </div>
-                <div className="col" id='col2'>
-                    <img src="https://anjitvs.in/wp-content/uploads/2022/07/7371204.png" width={'40px'} height={'40px'} style={{ marginTop: '10px' }} alt="bookimage" />
-                    <h4 id='head22'>Writing Support before Admission</h4>
-                    <p id='paraC2'>Meet Shruti Jain, our dedicated assignment expert at Smart Study Assist. With extensive experience and deep expertise in academic writing, Shruti is committed to crafting top-quality assignments tailored to your unique requirements. At Smart Study Assist, we offer a range of academic writing services including </p>
-                    <ul id='ul2'>
-                        <li>Admission Essays</li>
-                        <li>Statements of Purpose</li>
-                        <li>Personal Statements</li>
-                        <li>Motivation Letters</li>
-                        <li>Recommendation Letters</li>
-                    </ul>
-                </div>
+                </div>  
             </div>
         </div>
             <div className='btnTalk' style={{ textAlign: "center" }}>

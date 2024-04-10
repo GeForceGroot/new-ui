@@ -2,15 +2,20 @@ import React from 'react'
 import '../style/service.css'
 import ContentTwoBox from './ContentTwoBox';
 import ConetentService from './ConetentService';
+import { Helmet } from 'react-helmet'
 
 const Service = () => {
     return (
         <>
-
+            <Helmet>
+                <meta charSet="utf-8" />
+                <meta name='description' content='Discover top-quality academic writing services at Smart Study Assists portfolio. Expert assistance for essays, research papers, and more. Get started today!' />
+                <title>Professional Academic Writing Services | Smart Study Assist</title>
+            </Helmet>
             <section id='bgServe'>
                 <div className="container" style={{ textAlign: 'center' }} >
-                    <h5 id='animath5' style={{ color: "#15c39a", paddingTop: "100px" }} className="block-sub__title">Our Areas of Expertise</h5>
-                    <h6 id='animath6' className="block-title" style={{ marginTop: '25px', color: "#fd8b00" }}>Check out our Services ⚙️</h6>
+                    <h5 id='animath5' style={{ color: "#15c39a", paddingTop: "100px" }} className="block-sub__title">Our Areas of Expertise ⚙️</h5>
+                    {/* <h6 id='animath6' className="block-title" style={{ marginTop: '25px', color: "#fd8b00" }}>Check out our Services </h6> */}
                     <p id='paraAni' className="text-muted" style={{ marginTop: '40px', paddingBottom: '100px' }}>At Smart Study Assist, our payment process is designed for simplicity and security. Whether you're invoicing or making payments, everything happens conveniently through our platform. We offer flexible options including hourly or fixed-price projects to match your needs. For hourly work, submit timesheets effortlessly, while for fixed-price projects, set milestones and securely release funds through our escrow features.
                     </p>
                 </div>

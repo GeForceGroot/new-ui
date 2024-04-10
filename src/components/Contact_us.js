@@ -2,6 +2,7 @@ import React from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import '../style/contact-us.css'
+import { Helmet } from 'react-helmet'
 
 const Contact_us = () => {
     const form = useRef();
@@ -25,6 +26,11 @@ const Contact_us = () => {
     }
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <meta name='description' content='Contact Smart Study Assist for expert academic writing services. Get help with essays, research papers, and more from our qualified team. Reach out today!' />
+                <title>Contact Smart Study Assist | Get Expert Academic Writing Help</title>
+            </Helmet>
             <section className='contactUs'>
                 <div className='container'>
                     <div className='row' >

@@ -16,7 +16,7 @@ const Benifits = () => {
                             <img id='hex1' width="43" height="36" loading="lazy" src="https://cdn1.myassignment.live/mah-live/img/cap.svg" alt="caMsoNormal" />
                         </div>
                     </div>
-                    <h5 className="heading"  style={{ marginTop: "10px" }}>📖 Get your assignments done online with us and unlock amazing perks !</h5>
+                    <h5 className="heading"  style={{ marginTop: "10px" }}>📖 Get Your Assignments Done Online With Us And Unlock Amazing Perks !</h5>
                 </div>
             </section>
             <div className='container' id='prefer2' >
