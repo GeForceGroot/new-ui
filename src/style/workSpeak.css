@@ -1,6 +1,9 @@
 #workSpeakFix {
     margin-top: 50px;
 }
+#columeLeft {
+    margin-left: 70px;
+}
 
 
 @media (min-width:'1200px') {
