@@ -19,7 +19,7 @@
 
 @media (max-width:499px) {
     #workSpeakFix {
-        margin-left: 10px;
+        margin-left: -25px;
     }
     #columeLeft {
         margin-left: 0px;
