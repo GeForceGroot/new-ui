@@ -14,7 +14,7 @@
   opacity: 1;
   /* Initially hide the text */
   animation: sni 2s;
-  color: #15c39a;
+  color: #030264;
 }
 #rM{
   margin-top: 100px;
@@ -40,14 +40,14 @@
 #btnHvn{
   font-weight: bold;
   font-size: 17px;
-  background-color: #15c39a;
-  border: 1px solid #15c39a;
+  background-color: #030264;
+  border: 1px solid #030264;
 }
 
 
 #btnHvn:hover{
-  background-color: #079070;
-  border: 1px solid #079070;
+  background-color: #135bbf;
+  border: 1px solid #135bbf;
 }
 
 

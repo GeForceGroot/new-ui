@@ -13,13 +13,13 @@ const About_us = () => {
             </Helmet>
             <section id='bgServe'>
                 <div className="container" style={{ textAlign: 'center' }} >
-                    <h3 id='animath5' style={{ color: "#15c39a", paddingTop: "100px" }} className="block-sub__title">About Us </h3>
+                    <h3 id='animath5' style={{ color: "#030264", paddingTop: "100px" }} className="block-sub__title">About Us </h3>
                     <p id='paraAni' className="text-muted" style={{ marginTop: '40px', paddingBottom: '100px' }}>Welcome to Smart Study Assist, your reliable companion in achieving academic success through our writing assistance services. Established with the mission to empower students in their educational endeavors, we excel in delivering customized support to individuals across diverse disciplines and academic levels.
                     </p>
                 </div>
             </section>
             <div className='container' style={{ textAlign: "center", marginTop: "75px", marginBottom: '75px' }}>
-                <h4 style={{ color: "#15c39a" }}>Who We Are?</h4>
+                <h4 style={{ color: "#030264" }}>Who We Are?</h4>
                 <p style={{ fontSize: '16px', marginTop: '25px' }}>At Smart Study Assist, we comprehend the hurdles students encounter in today's rigorous academic landscape. Hence, we've curated a cadre of certified and seasoned writers committed to producing high-caliber work tailored to your specific needs. Whether it's essays, research papers, presentations, or any other academic task, our team stands ready to support you throughout the process.</p>
 
                 <div className='row' style={{ textAlign: 'center', marginTop: '100px' }}>
@@ -31,7 +31,7 @@ const About_us = () => {
                     <div className='col-sm'>
                         <img src="https://i.pinimg.com/564x/62/65/ee/6265eead1e6bd8ca6a3da000ec5e7712.jpg" alt="Vision" width={'40px'} height={'40px'} />
                         <div className="vl">
-                            <h4 style={{ marginTop: '10px' }}>OUR VISSION</h4>
+                            <h4 style={{ marginTop: '10px' }}>OUR VISION</h4>
                             <p style={{ fontSize: "18px", marginTop: '40px', marginLeft: '30px' }}>Welcome to Smart Study Assist, where our vision is to empower students on their academic journey through personalized assistance and unwavering support.<br />Meet the dedicated professionals behind Smart Study Assist. </p>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const About_us = () => {
                 </div>
             </div>
             <div className='container' style={{ marginBottom: "100px" }} id='abtPoint'>
-                <h2 style={{ marginBottom: "100px", color: "#15c39a", textAlign: 'center' }}>WHY IT’S A GOOD IDEA TO ENTRUST US WITH YOUR PAPER</h2>
+                <h2 style={{ marginBottom: "100px", color: "#030264", textAlign: 'center' }}>WHY IT’S A GOOD IDEA TO ENTRUST US WITH YOUR PAPER</h2>
                 <div className='row'>
                     <div className='col-sm'>
                         <div className='container'>

@@ -35,7 +35,7 @@
 .faq-accordian .card .card-header h6 {
     cursor: pointer;
     padding: 1.75rem 2rem;
-    color: rgb(21, 195, 154);
+    color: #135bbf;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -71,7 +71,7 @@
 }
 
 .support-button i {
-    color: rgb(21, 195, 154);
+    color: #135bbf;
     font-size: 1.25rem;
 }
 @media only screen and (max-width: 575px) {
@@ -82,7 +82,7 @@
 
 .support-button a {
     text-transform: capitalize;
-    color: rgb(21, 195, 154)    ;
+    color: #135bbf    ;
 }
 @media only screen and (max-width: 575px) {
     .support-button a {

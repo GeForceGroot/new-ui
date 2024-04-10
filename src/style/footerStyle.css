@@ -7,10 +7,16 @@
     line-height: 0;
 }
 #portfolio{
-    background-color: #15c39a;
+    background-color: #030264;
     border-radius: 50px;
-    border: 1px solid #15c39a;
+    border: 1px solid #030264;
 }
+#portfolio:hover{
+    background-color: #135bbf;
+    border-radius: 50px;
+    border: 1px solid #135bbf;
+}
+
 #unOrderFoot{
     display: flex;
     list-style-type: none;

@@ -4,7 +4,7 @@ const Dream = () => {
     return (
         <>
             <div className='container' style={{ textAlign: 'center', marginTop: '50px' }}>
-                <h5 style={{ color: '#15c39a' }}>Fulfilling Your Dreams With Unique</h5>
+                <h5 style={{ color: '#030264' }}>Fulfilling Your Dreams With Unique</h5>
                 <h6 style={{ marginTop: '25px' }}>plagiarism-free content crafted by expert writers.</h6>
                 <div className='btnTalk' style={{ textAlign: "center", marginTop: '50px' }}>
                     <a href="/contact_us" target='_blank'>

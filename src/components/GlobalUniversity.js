@@ -17,7 +17,7 @@ const GlobalUniversity = () => {
                                 <button type="button" id='btnHvn' style={{ fontSize: '14px' }} className="btn btn-primary">Get a free quote</button>
                             </a>
                             <a href="/portfolio" target='_blank'>
-                                <button type="button" id='btnHvn' style={{ fontSize: '14px', marginLeft: '15px', backgroundColor: 'white', color: '#15c39a' }} className="btn btn-primary ">View Example</button>
+                                <button type="button" id='btnHvn' style={{ fontSize: '14px', marginLeft: '15px', backgroundColor: 'white', color: '#030264' }} className="btn btn-primary ">View Example</button>
                             </a>
                         </div>
                     </div>

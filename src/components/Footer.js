@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className='container' style={{ textAlign: "center" }}>
                         <img src={clinetImage} style={{ marginTop: "100px", borderRadius: '50%' }} width={"125px"} height={"125px"} alt="logo" />
                         <h6 style={{ marginTop: '50px', fontWeight: "bold" }}>Meet Shruti, Your Expert Content Writer in India</h6>
-                        <p style={{ fontSize: "15px", marginTop: "30px" }}>Hello there! I am Shruti, an experienced content writer based in India. I have a wonderful team with me that delivers exceptional content writing, branding, and overseas education services tailored just for you. At Smart Study Assist, we take pride in offering personalized services with a focus on quality, creativity, and giving value to our clients. Let's create something amazing together!</p>
+                        <p style={{ fontSize: "15px", marginTop: "30px" }}>My journey is defined by a relentless pursuit of excellence and innovation in education. I established a strong foundation during my secondary education and honed my technical proficiency through certifications and skills development. This paved the way for my venture into leadership and entrepreneurship. Mobilizing critical projects and implementing Total Productive Maintenance (TPM) with zero defects underscore my dedication to driving efficiency and quality.</p>
                     </div>
                     <div className='container' style={{ display: 'flex', fontWeight: 'bold', justifyContent: 'center' }} id='foornabvar'>
                         <ul id='unOrderFoot' >

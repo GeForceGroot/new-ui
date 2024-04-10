@@ -78,7 +78,7 @@ const Benifits = () => {
                         Work with us</button>
                 </a>
             </div>
-            <hr style={{ marginLeft: "150px", marginRight: "150px", marginTop: '75px', marginBottom: "100px", border: "2px solid #15c39a" }} />
+            <hr style={{ marginLeft: "150px", marginRight: "150px", marginTop: '75px', marginBottom: "100px", border: "2px solid #030264" }} />
         </>
     )
 }

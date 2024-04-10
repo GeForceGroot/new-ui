@@ -7,7 +7,7 @@ const WorkSpeaks = () => {
     return (
         <>
             <section className='container' style={{ textAlign: "center", marginTop: "50px" }}>
-                <h5 style={{ color: "#15c39a" }}>Our Work Is A Testament To Our Capabilities</h5>
+                <h5 style={{ color: "#030264" }}>Our Work Is A Testament To Our Capabilities</h5>
                 <div className='container'>
                     <div className='row' id='workSpeakFix' style={{textAlign:'center'}}>
                         <div className='col-sm' id='columeLeft'>

@@ -5,7 +5,7 @@ const OurProcess = () => {
         <>
             <div className='container' id='orP'>
                 <div id='headorP'>
-                    <h5 style={{ color: "#079070" }}>OUR PROCESS</h5>
+                    <h5 style={{ color: "#030264" }}>OUR PROCESS</h5>
                     <h5>How Our Academic Assistance Service Works</h5>
                     <p style={{fontSize:'20px', textAlign:'center', marginTop:'15px', marginBottom:'15px'}}>Our content writing team has catered to clients from various industries worldwide. No matter what your business niche may be, we've got the writing chops to deliver quality content that you and your audience will adore.</p>
                 </div>
