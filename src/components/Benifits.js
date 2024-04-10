@@ -48,7 +48,7 @@ const Benifits = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row" style={{marginTop:'15px'}}>
                     <div className="col-sm one-third item" id='greenBox'>
                         <div className="hex"></div>
                         <img width="40" height="40" kis-src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon5.svg" alt="quality" src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon5.svg" />
