@@ -1,7 +1,6 @@
 import React from 'react'
 import '../style/service.css'
 import ContentTwoBox from './ContentTwoBox';
-import ConetentService from './ConetentService';
 import { Helmet } from 'react-helmet'
 
 const Service = () => {
@@ -21,7 +20,6 @@ const Service = () => {
                 </div>
             </section>
             <section>
-                <ConetentService />
                 <ContentTwoBox />
             </section>
             <section id='servPointLeft' style={{ marginTop: '100px' }}>

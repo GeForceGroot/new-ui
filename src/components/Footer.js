@@ -13,6 +13,7 @@ const Footer = () => {
                         <img src={clinetImage} style={{ marginTop: "100px", borderRadius: '50%' }} width={"125px"} height={"125px"} alt="logo" />
                         <h6 style={{ marginTop: '50px', fontWeight: "bold" }}>Meet Shruti, Your Expert Content Writer in India</h6>
                         <p style={{ fontSize: "15px", marginTop: "30px" }}>My journey is defined by a relentless pursuit of excellence and innovation in education. I established a strong foundation during my secondary education and honed my technical proficiency through certifications and skills development. This paved the way for my venture into leadership and entrepreneurship. Mobilizing critical projects and implementing Total Productive Maintenance (TPM) with zero defects underscore my dedication to driving efficiency and quality.</p>
+                        <p style={{ fontSize: "15px" }}>My ability to pinpoint areas for improvement has resulted in significant boosts in productivity, employee skills, and key performance indicators. The inception of Smart Study Assist reflects my belief in leveraging technology to enhance academic services and foster student success. Through a blend of leadership, problem-solving, and a commitment to customer satisfaction, Smart Study Assist stands as a trusted partner in academic and professional growth.</p>
                     </div>
                     <div className='container' style={{ display: 'flex', fontWeight: 'bold', justifyContent: 'center' }} id='foornabvar'>
                         <ul id='unOrderFoot' >
@@ -61,7 +62,7 @@ const Footer = () => {
                                     <p><img style={{ marginBottom: '8px' }} width={'20px'} height={'20px'} src='https://www.svgrepo.com/show/13696/house.svg' /> :- 73 B Block, Padmapur, Sri Ganganagar</p>
                                     <p><img style={{ marginBottom: '5px' }} width={'20px'} height={'20px'} src='https://www.svgrepo.com/show/168219/email.svg' /> :- info@smartstudyassist.com</p>
                                     <p><img style={{ marginBottom: '5px' }} width={'20px'} height={'20px'} src='https://www.svgrepo.com/show/5236/phone-call.svg' /> :- +919530473222</p>
-                                    <p><img style={{ marginBottom: '5px' }} width={'20px'} height={'20px'} src='https://www.svgrepo.com/show/14899/printer.svg' /> :- + 01 234 567 89</p>
+                                    {/* <p><img style={{ marginBottom: '5px' }} width={'20px'} height={'20px'} src='https://www.svgrepo.com/show/14899/printer.svg' /> :- + 01 234 567 89</p> */}
                                 </div>
                                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                                     <h6 className="text-uppercase mb-4 font-weight-bold">Follow us</h6>
