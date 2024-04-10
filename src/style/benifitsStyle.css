@@ -44,11 +44,7 @@
   font-size: large;
 }
 
-.one-third:hover {
-  transform: scale(1.1);
-  /* Scale to 110% on hover */
-  transition: transform .3s ease-in-out;
-}
+
 
 #blueBox {
   border: 1px solid rgb(234, 236, 237);
