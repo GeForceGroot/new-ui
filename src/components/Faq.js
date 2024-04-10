@@ -9,7 +9,7 @@ const Faq = () => {
         <>
             <div className='container' style={{ alignItems: "center", marginTop: "150px", marginBottom: '150px' }}>
                 <div className='row' id='faqRow'>
-                    <div className='col'>
+                    <div className='col' style={{textAlign:'center', marginTop:'125px'}}>
                         <h4 style={{ color: "#030264" }}>Academic Essays</h4>
                         <h4>Frequently Asked Questions</h4>
                     </div>
