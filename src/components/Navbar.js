@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import logoImage from '../style/logo_stdsmdhlp.jpg'
+import logoImage from '../style/SSA_page-0001.jpg'
 import '../style/navbarCss.css'
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
                 <div className='container'>
                     <nav className="navbar navbar-expand-lg navbar-light">
                         <a className="navbar-brand" href="/">
-                            <img style={{ borderRadius: '25px' }} src={logoImage} width="60" height="60" alt="logo" />
+                            <img style={{ borderRadius: '25px' }} src={logoImage} width="70" height="70" alt="logo" />
                         </a>
                         <a className="navbar-brand" href="/" >Smart Study Assist</a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
