@@ -6,7 +6,7 @@ const ConetentService = () => {
     return (
         <>
             <div className='container' id='cnS'>
-                <h5 id='heading'>We Offer the Best Academic Content Writing Services</h5>
+                <h5 id='heading'>We Offer the Best Academic Services</h5>
                 <div className='container' id='paraId'>
                     <p id='para'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, eum? Nemo est sit sunt a, laudantium deleniti. Qui saepe dolorem minima cum odio blanditiis hic culpa accusamus molestiae, veniam labore.</p>
                 </div>

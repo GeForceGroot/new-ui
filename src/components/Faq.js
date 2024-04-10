@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/role-supports-aria-props */
 import React from 'react'
 import '../style/faq.css'
 import { Collapse, initMDB } from 'mdb-ui-kit';
@@ -13,113 +14,53 @@ const Faq = () => {
                         <h4>Frequently Asked Questions</h4>
                     </div>
                     <div className='col' id='colFaq'>
-                        <div className="accordion" id="accordionExample">
-                            <div className="accordion-item">
-                                <h5 className="accordion-header" id="headingOne">
-                                    <button
-                                        data-mdb-collapse-init
-                                        className="accordion-button"
-                                        type="button"
-                                        data-mdb-toggle="collapse"
-                                        data-mdb-target="#collapseOne"
-                                        aria-expanded="true"
-                                        aria-controls="collapseOne"
-                                    >
-                                        How do you ensure that the essays are original and plagiarism-free?
-                                    </button>
-                                </h5>
-                                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-mdb-parent="#accordionExample">
-                                    <div className="accordion-body">
-                                        With every essay that we write, we conduct multiple quality assessment reviews and tests. These tests also include plagiarism-checking using powerful, industry-leading tools. You can also get a plagiarism report with every essay that we deliver.
+                        <div className="faq_area section_padding_130" id="faq">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    {/* <!-- FAQ Area--> */}
+                                    <div className="col-12 col-sm-10 col-lg-8">
+                                        <div className="accordion faq-accordian" id="faqAccordion">
+                                            <div className="card border-0 wow fadeInUp" data-wow-delay="0.2s" style={{visibility: 'visible', AnimationEffect: '0.2s', animationName: 'fadeInUp'}}>
+                                                <div className="card-header" id="headingOne">
+                                                    <h6 className="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">01. How do you ensure that the essays are original and plagiarism-free?<span className="lni-chevron-up"></span></h6>
+                                                </div>
+                                                <div className="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                                                    <div className="card-body">
+                                                        <p>With every essay we write, we conduct multiple quality assessment reviews and tests. These tests include plagiarism-checking using powerful, industry-leading tools. You can also receive a plagiarism report with every essay that we deliver.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="card border-0 wow fadeInUp" data-wow-delay="0.3s" style={{visibility: 'visible', AnimationEffect: '0.2s', animationName: 'fadeInUp'}}>
+                                                <div className="card-header" id="headingTwo">
+                                                    <h6 className="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">02. What are the benefits of academic writing in the lives of students?<span className="lni-chevron-up"></span></h6>
+                                                </div>
+                                                <div className="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                                                    <div className="card-body">
+                                                        <p>Regardless of your study discipline, academic writing helps you to build arguments, communicate ideas, and participate in scholarly conversations. It is a skill that you need to master to make the most out of your academic qualification.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="card border-0 wow fadeInUp" data-wow-delay="0.4s" style={{visibility: 'visible', AnimationEffect: '0.2s', animationName: 'fadeInUp'}}>
+                                                <div className="card-header" id="headingThree">
+                                                    <h6 className="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">03. Why do students struggle with academic writing?<span className="lni-chevron-up"></span></h6>
+                                                </div>
+                                                <div className="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                                                    <div className="card-body">
+                                                        <p>Students may struggle with academic writing due to various reasons, including:</p>
+                                                        <ul>
+                                                            <li>Difficulty getting started and feeling overwhelmed by the task</li>
+                                                            <li>Needing concentration to form letters as it's not an automatic process.</li>
+                                                            <li>Struggling to organize and use mechanics of writing.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="accordion-item">
-                                <h5 className="accordion-header" id="headingTwo">
-                                    <button
-                                        data-mdb-collapse-init
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-mdb-toggle="collapse"
-                                        data-mdb-target="#collapseTwo"
-                                        aria-expanded="false"
-                                        aria-controls="collapseTwo"
-                                    >
-                                        What are the benefits of academic writing in the lives of students?
-                                    </button>
-                                </h5>
-                                <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
-                                    <div className="accordion-body">
-                                    Regardless of your study discipline, academic writing helps you to build arguments, communicate ideas, and participate in scholarly conversations. It is a skill that you need to master to make the most out of your academic qualification.
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h5 className="accordion-header" id="headingThree">
-                                    <button
-                                        data-mdb-collapse-init
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-mdb-toggle="collapse"
-                                        data-mdb-target="#collapseThree"
-                                        aria-expanded="false"
-                                        aria-controls="collapseThree"
-                                    >
-                                        Why do students struggle with academic writing?
-                                    </button>
-                                </h5>
-                                <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#accordionExample">
-                                    <div className="accordion-body">
-                                    Students may struggle with academic writing due to various reasons, including:
-                                    <ul>
-                                        <li>Difficulty getting started and feeling overwhelmed by the task.</li>
-                                        <li>Needing concentration to form letters as it's not an automatic process.</li>
-                                        <li>Struggling to organize and use mechanics of writing.</li>
-                                    </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <div className="accordion-item">
-                                <h5 className="accordion-header" id="headingThree">
-                                    <button
-                                        data-mdb-collapse-init
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-mdb-toggle="collapse"
-                                        data-mdb-target="#collapseFour"
-                                        aria-expanded="false"
-                                        aria-controls="collapseFour"
-                                    >
-                                       What if I do not like the essay you write?
-                                    </button>
-                                </h5>
-                                <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#accordionExample">
-                                    <div className="accordion-body">
-                                    We have a free revision policy that you can use to provide us with feedback and get revisions for the parts that you did not like.
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h5 className="accordion-header" id="headingThree">
-                                    <button
-                                        data-mdb-collapse-init
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-mdb-toggle="collapse"
-                                        data-mdb-target="#collapseFive"
-                                        aria-expanded="false"
-                                        aria-controls="collapseFive"
-                                    >
-                                        Can I choose my writer?
-                                    </button>
-                                </h5>
-                                <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#accordionExample">
-                                    <div className="accordion-body">
-                                    In order to ensure that all our clients get the best service, we assign the projects to our writers based on various parameters. You can rest assured that your essay is written by a writer with the right expertise and experience.
-                                    </div>
-                                </div>
-                            </div> */}
-                        </div></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
