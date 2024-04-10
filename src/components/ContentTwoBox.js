@@ -8,7 +8,7 @@ const ContentTwoBox = () => {
                 <div className="col" id='col1'>
                     <img src="https://anjitvs.in/wp-content/uploads/2022/07/7371204.png" width={'40px'} height={'40px'} style={{ marginTop: '10px' }} alt="bookimage" />
                     <h4 id='head21'>Writing Support before Admission</h4>
-                    <p id='paraC1'>Team Anjit VS creates admission and academic essays that students need throughout their academic journey. We help them apply successfully to their preferred universities with admission essays and create insightful assignments and dissertations for better grades and scores. We offer the following academic writing help.</p>
+                    <p id='paraC1'>Meet Shruti Jain, our dedicated assignment expert at Smart Study Assist. With extensive experience and deep expertise in academic writing, Shruti is committed to crafting top-quality assignments tailored to your unique requirements. At Smart Study Assist, we offer a range of academic writing services including</p>
                     <ul id='ul1'>
                         <li>Admission Essays</li>
                         <li>Statements of Purpose</li>
@@ -20,7 +20,7 @@ const ContentTwoBox = () => {
                 <div className="col" id='col2'>
                     <img src="https://anjitvs.in/wp-content/uploads/2022/07/7371204.png" width={'40px'} height={'40px'} style={{ marginTop: '10px' }} alt="bookimage" />
                     <h4 id='head22'>Writing Support before Admission</h4>
-                    <p id='paraC2'>Team Anjit VS creates admission and academic essays that students need throughout their academic journey. We help them apply successfully to their preferred universities with admission essays and create insightful assignments and dissertations for better grades and scores. We offer the following academic writing help.</p>
+                    <p id='paraC2'>Meet Shruti Jain, our dedicated assignment expert at Smart Study Assist. With extensive experience and deep expertise in academic writing, Shruti is committed to crafting top-quality assignments tailored to your unique requirements. At Smart Study Assist, we offer a range of academic writing services including </p>
                     <ul id='ul2'>
                         <li>Admission Essays</li>
                         <li>Statements of Purpose</li>

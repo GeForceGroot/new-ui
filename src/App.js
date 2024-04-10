@@ -5,8 +5,6 @@ import Acadmicimpact from './components/Acadmicimpact';
 import AssignmnetProvide from './components/AssignmnetProvide';
 import Benifits from './components/Benifits';
 import Carousel from './components/Carousel';
-import ConetentService from './components/ConetentService';
-import ContentTwoBox from './components/ContentTwoBox';
 import Dream from './components/Dream';
 import Footer from './components/Footer';
 import GlobalUniversity from './components/GlobalUniversity';
@@ -35,8 +33,6 @@ function App() {
         <Switch>
           <Route exact path='/'>
             <Carousel />
-            <ConetentService />
-            <ContentTwoBox />
             <Benifits />
             <OurProcess />
             <GlobalUniversity />

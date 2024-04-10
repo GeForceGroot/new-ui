@@ -9,14 +9,14 @@ const GlobalUniversity = () => {
                 <div className='row'>
                     <div className='col' id='uni1' style={{ marginTop: '160px', textAlign: 'center' }}><img style={{ borderRadius: '20px' }} id='imgani' src={image} width={'400px'} height={'220px'} alt="univesityImage" /></div>
                     <div className='col' id='colUni'>
-                        <h5>Serving Global Universities at a</h5>
+                        <h5>Assisting World-Class Universities with an Impressive</h5>
                         <h5 style={{ color: 'darkorange' }}>90% acceptance rate</h5>
-                        <p style={{ fontSize: "14px", marginTop: '25px' }}>Get personalized and guided services for students and working professionals under one roof with a fixed TAT of 2 days and no extra charges. We create SOPs that fit individual needs using the profile, universities, courses, faculty, and exam scores with the help of our content writing services. Quality check by education counsellors, 1 free revision anytime with an above 90% acceptance rate, no hidden charges, express deliveries, and over 2000 positive customer reviews.</p>
+                        <p style={{ fontSize: "14px", marginTop: '25px' }}>Receive top-notch, personalized services for students and professionals alike all under one roof! With a quick turnaround time of just 2 days and zero added costs, our team crafts tailor-made SOPs based on your unique profile, desired universities, courses, faculty preferences, and exam scores. Our content writing services guarantee quality and authenticity. Rest assured, our team of education counselors conducts thorough quality checks, With a stellar acceptance rate of over 90%, no hidden fees, speedy deliveries, and a sea of positive reviews. Join the ranks of satisfied customers today!</p>
                         <div className='btnTalk' >
                             <a href="/allServices" target='_blank'>
                                 <button type="button" id='btnHvn' style={{ fontSize: '14px' }} className="btn btn-primary">Get a free quote</button>
                             </a>
-                            <a href="/allServices" target='_blank'>
+                            <a href="/portfolio" target='_blank'>
                                 <button type="button" id='btnHvn' style={{ fontSize: '14px', marginLeft: '15px', backgroundColor: 'white', color: '#15c39a' }} className="btn btn-primary ">View Example</button>
                             </a>
                         </div>

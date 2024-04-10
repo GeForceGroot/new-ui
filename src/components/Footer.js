@@ -11,25 +11,22 @@ const Footer = () => {
                 <section className='portfolio' style={{ backgroundColor: "#f4f4f4" }}>
                     <div className='container' style={{ textAlign: "center" }}>
                         <img src={clinetImage} style={{ marginTop: "100px", borderRadius: '50%' }} width={"125px"} height={"125px"} alt="logo" />
-                        <h6 style={{ marginTop: '50px', fontWeight: "bold" }}>Shruti</h6>
-                        <p style={{ fontSize: "15px", marginTop: "30px" }}>An experienced and expert content writer in India, I have diverse teams delivering top-notch content writing, branding, and overseas education services customized to my clients. At shruti, the biggest service offering specialty is our customization grounded on quality, creativity, and client-value.</p>
+                        <h6 style={{ marginTop: '50px', fontWeight: "bold" }}>Meet Shruti, Your Expert Content Writer in India</h6>
+                        <p style={{ fontSize: "15px", marginTop: "30px" }}>Hello there! I am Shruti, an experienced content writer based in India. I have a wonderful team with me that delivers exceptional content writing, branding, and overseas education services tailored just for you. At Smart Study Assist, we take pride in offering personalized services with a focus on quality, creativity, and giving value to our clients. Let's create something amazing together!</p>
                     </div>
                     <div className='container' style={{ display: 'flex', fontWeight: 'bold', justifyContent: 'center' }} id='foornabvar'>
                         <ul id='unOrderFoot' >
-                            <a href="/" style={{ color: 'black', textDecoration: 'none' }}>
-                                <li style={{ marginLeft: "30px" }}>Home</li>
+                            <a href="https://www.facebook.com/shruti.assignments" style={{ color: 'blue', textDecoration: 'none' }}>
+                                <li style={{ marginLeft: "30px" }}><i className="fab fa-facebook-f"></i></li>
                             </a>
-                            <a href="/allServices" style={{ color: 'black', textDecoration: 'none' }}>
-                                <li style={{ marginLeft: "30px" }}>Services</li>
+                            <a href="/" style={{ color: 'red', textDecoration: 'none' }}>
+                                <li style={{ marginLeft: "30px" }}><i className="fab fa-youtube"></i></li>
                             </a>
-                            <a href="/about_us" style={{ color: 'black', textDecoration: 'none' }}>
-                                <li style={{ marginLeft: "30px" }}>About us</li>
+                            <a href="https://www.instagram.com/shruti.assignments/?utm_source=qr&igsh=MWgwaDV1djF5ejB3bw%3D%3D" style={{ color: 'purple', textDecoration: 'none' }}>
+                                <li style={{ marginLeft: "30px" }}><i className="fab fa-instagram"></i ></li>
                             </a>
-                            <a href="/contact_us" style={{ color: 'black', textDecoration: 'none' }}>
-                                <li style={{ marginLeft: "30px" }}>Contact Us</li>
-                            </a>
-                            <a href="/portfolio" style={{ color: 'black', textDecoration: 'none' }}>
-                                <li style={{ marginLeft: "30px" }}>Portfolio</li>
+                            <a href="https://www.linkedin.com/in/shruti-jain-ab953a20/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style={{ color: 'blue', textDecoration: 'none' }}>
+                                <li style={{ marginLeft: "30px" }}><i className="fab fa-linkedin-in"></i ></li>
                             </a>
                         </ul>
                     </div>
@@ -69,7 +66,7 @@ const Footer = () => {
                                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                                     <h6 className="text-uppercase mb-4 font-weight-bold">Follow us</h6>
                                     <a className="btn btn-primary btn-floating m-1" style={{ backgroundColor: '#3b5998', borderColor: '#3b5998' }} href="https://www.facebook.com/shruti.assignments" role="button" ><i className="fab fa-facebook-f"></i></a>
-                                    <a className="btn btn-primary btn-floating m-1" style={{ backgroundColor: '#dd4b39', borderColor: '#dd4b39' }} href="#!" role="button"><i className="fab fa-youtube"></i></a>
+                                    <a className="btn btn-primary btn-floating m-1" style={{ backgroundColor: '#dd4b39', borderColor: '#dd4b39' }} href="/" role="button"><i className="fab fa-youtube"></i></a>
                                     <a className="btn btn-primary btn-floating m-1" style={{ backgroundColor: '#ac2bac', borderColor: '#ac2bac' }} href="https://www.instagram.com/shruti.assignments/?utm_source=qr&igsh=MWgwaDV1djF5ejB3bw%3D%3D" role="button" ><i className="fab fa-instagram"></i ></a>
                                     <a className="btn btn-primary btn-floating m-1" style={{ backgroundColor: '#0082ca', borderColor: '#0082ca' }} href="https://www.linkedin.com/in/shruti-jain-ab953a20/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" role="button" ><i className="fab fa-linkedin-in"></i ></a>
                                 </div>

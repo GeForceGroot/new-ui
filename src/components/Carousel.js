@@ -10,8 +10,9 @@ const Carousel = () => {
                     <div className='col'>
                         <div className='wow container fadeInUp pst'>
                             <span className="pro-status">Before and After Admission</span>
-                            <p className="mtb40">All-Inclusive Academic Writing Services for Students</p>
-                            <p className='nxtpara'>With Anjit VS academic writing services, getting selected by a reputed university for your favorite course is now easie</p>
+                            <p className="mtb40">Comprehensive academic writing services for students</p>
+                            <p className='nxtpara'>Assignments by Shruti Jain: Trust us to help you achieve
+                            academic success <br/>  with our tailored writing solutions.</p>
                         </div>
                         <div className='btnTalk' >
                             <a href="/contact_us" target='_blank'>

@@ -7,7 +7,7 @@ const ServiceHome = () => {
             <section id='srviceBgset'>
                 <div className='container servecieHome' id='servecieHome'>
                     <div className='hellooo' style={{ textAlign: "center" }}>
-                        <h4 style={{ marginTop: '25px', paddingTop: '25px' }}>Services For All Your Needs</h4>
+                        <h4 style={{ marginTop: '25px', paddingTop: '25px' }}>Our services cater to all your academic needs, including</h4>
                     </div>
                     <div className='row' style={{ marginTop: '50px', textAlign: 'center' }} id='servrRow'>
                         <div className='col' id='serverCol'>
@@ -42,7 +42,7 @@ const ServiceHome = () => {
                         </div>
                         <div className='col' id='serverCol'>
                             <img src="https://cdn1.myassignment.live/mal-img/other.svg" width={'30px'} height={"30px"} alt="accounting" />
-                            <h6 id='headServ' style={{ color: '#4747dd' }}>Other Subjects</h6>
+                            <h6 id='headServ' style={{ color: '#4747dd' }}>And Other Subjects</h6>
                         </div>
                     </div>
                 </div>

@@ -33,21 +33,21 @@ const Contact_us = () => {
                                 <img style={{ marginTop: '15px' }} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoaOAd4729IT4l4BO3txtJZdE9Ifv_BED_mXw3U0S-9w&s" width={'40px'} height={'40px'} alt="" />
                                 <div className='mix' style={{ marginLeft: '20px' }}>
                                     <h6 style={{ color: "#15c39a" }}>TALK TO OUR CLIENT SUPPORT TEAM</h6>
-                                    <h5 style={{ color: 'darkorange' }}>+919048 815 031</h5>
+                                    <h5 style={{ color: 'darkorange' }}>+91-9530473222</h5>
                                 </div>
                             </div>
                             <div className='phone' style={{ marginTop: '50px', display: 'flex' }}>
                                 <img style={{ marginTop: '15px' }} src='https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png' width={'40px'} height={'40px'} alt="" />
                                 <div className='mix' style={{ marginLeft: '20px' }}>
                                     <h6 style={{ color: "#15c39a" }}>WRITE TO US ABOUT YOUR NEEDS</h6>
-                                    <h5 style={{ color: 'darkorange' }}>xyz@gmail.com</h5>
+                                    <h5 style={{ color: 'darkorange' }}>info@smartstudyassist.com</h5>
                                 </div>
                             </div>
                             <div className='phone' style={{ marginTop: '50px', display: 'flex' }}>
                                 <img style={{ marginTop: '15px' }} src="https://www.svgrepo.com/show/493957/address.svg" width={'40px'} height={'40px'} alt="" />
                                 <div className='mix' style={{ marginLeft: '20px' }}>
                                     <h6 style={{ color: "#15c39a" }}>TALK TO OUR CLIENT SUPPORT TEAM</h6>
-                                    <h5 style={{ color: 'darkorange' }}>Building No: 902 - Tower 2, National Empress Gardens Vennala, Kochi, Kerala, Pin- 682028</h5>
+                                    <h5 style={{ color: 'darkorange' }}>73 B Block, Padmapur, Sri Ganganagar</h5>
                                 </div>
                             </div>
                         </div>

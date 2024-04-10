@@ -45,12 +45,12 @@ const Faq = () => {
                                         aria-expanded="false"
                                         aria-controls="collapseTwo"
                                     >
-                                        Are your academic writings affordable?
+                                        What are the benefits of academic writing in the lives of students?
                                     </button>
                                 </h5>
                                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
                                     <div className="accordion-body">
-                                        If you check the industry, academic writing is not a cheap service. As the quality needs to be top-notch and every essay involves extensive research, it takes time for essays to finish. Therefore, no academic essays can be cheap. However, we ensure to provide affordable academic writing and the best price in the market.
+                                    Regardless of your study discipline, academic writing helps you to build arguments, communicate ideas, and participate in scholarly conversations. It is a skill that you need to master to make the most out of your academic qualification.
                                     </div>
                                 </div>
                             </div>
@@ -65,12 +65,17 @@ const Faq = () => {
                                         aria-expanded="false"
                                         aria-controls="collapseThree"
                                     >
-                                        How long do you take to write the papers?
+                                        Why do students struggle with academic writing?
                                     </button>
                                 </h5>
                                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#accordionExample">
                                     <div className="accordion-body">
-                                    Although we cannot commit to a definite time, an academic essay can usually take anywhere from 3-5 business days. On the other hand, admission essays can only take 2-3 business days. However, the exact time will depend on the essay’s nature and requirements.
+                                    Students may struggle with academic writing due to various reasons, including:
+                                    <ul>
+                                        <li>Difficulty getting started and feeling overwhelmed by the task.</li>
+                                        <li>Needing concentration to form letters as it's not an automatic process.</li>
+                                        <li>Struggling to organize and use mechanics of writing.</li>
+                                    </ul>
                                     </div>
                                 </div>
                             </div>
