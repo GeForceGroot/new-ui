@@ -1,6 +1,6 @@
 import React from 'react'
 import '../style/carousel.css'
-import image from '../style/BannerImage_2.0.jpg'
+import image from '../style/Banner_1.png'
 
 const Carousel = () => {
     return (

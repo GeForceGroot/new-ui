@@ -1,6 +1,6 @@
 import React from 'react'
 import "../style/globalUiversity.css"
-import image from '../style/loactionImage.jpg'
+import image from '../style/Banner_2.png'
 
 const GlobalUniversity = () => {
     return (
