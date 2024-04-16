@@ -1,15 +1,19 @@
 /* eslint-disable jsx-a11y/role-supports-aria-props */
 import React from 'react'
 import '../style/faq.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Collapse, initMDB } from 'mdb-ui-kit';
 initMDB({ Collapse });
+AOS.init();
+
 
 const Faq = () => {
     return (
         <>
-            <div className='container' style={{ alignItems: "center", marginTop: "150px", marginBottom: '150px' }}>
+            <div className='container' style={{ alignItems: "center", marginTop: "50px", marginBottom: '150px' }}>
                 <div className='row' id='faqRow'>
-                    <div className='col' style={{textAlign:'center', marginTop:'125px'}}>
+                    <div className='col' style={{textAlign:'center', marginTop:'125px'}} data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" mirror='true'>
                         <h4 style={{ color: "#030264" }}>Academic Essays</h4>
                         <h4>Frequently Asked Questions</h4>
                     </div>
@@ -20,17 +24,17 @@ const Faq = () => {
                                     {/* <!-- FAQ Area--> */}
                                     <div className="col-12 col-sm-10 col-lg-8">
                                         <div className="accordion faq-accordian" id="faqAccordion">
-                                            <div className="card border-0 wow fadeInUp" data-wow-delay="0.2s" style={{visibility: 'visible', AnimationEffect: '0.2s', animationName: 'fadeInUp'}}>
+                                            <div data-aos="fade-left" data-aos-offset="300" data-aos-duration="1500" mirror='true' className="card border-0 wow fadeInUp" data-wow-delay="0.2s" style={{visibility: 'visible', AnimationEffect: '0.2s', animationName: 'fadeInUp'}}>
                                                 <div className="card-header" id="headingOne">
                                                     <h6 className="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">01. How do you ensure that the essays are original and plagiarism-free?<span className="lni-chevron-up"></span></h6>
                                                 </div>
                                                 <div className="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#faqAccordion">
-                                                    <div className="card-body">
-                                                        <p>With every essay we write, we conduct multiple quality assessment reviews and tests. These tests include plagiarism-checking using powerful, industry-leading tools. You can also receive a plagiarism report with every essay that we deliver.</p>
+                                                    <div className="card-body" >
+                                                        <p >With every essay we write, we conduct multiple quality assessment reviews and tests. These tests include plagiarism-checking using powerful, industry-leading tools. You can also receive a plagiarism report with every essay that we deliver.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="card border-0 wow fadeInUp" data-wow-delay="0.3s" style={{visibility: 'visible', AnimationEffect: '0.2s', animationName: 'fadeInUp'}}>
+                                            <div data-aos="fade-left" data-aos-offset="300" data-aos-duration="1500" mirror='true' className="card border-0 wow fadeInUp" data-wow-delay="0.3s" style={{visibility: 'visible', AnimationEffect: '0.2s', animationName: 'fadeInUp'}}>
                                                 <div className="card-header" id="headingTwo">
                                                     <h6 className="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">02. What are the benefits of academic writing in the lives of students?<span className="lni-chevron-up"></span></h6>
                                                 </div>
@@ -40,7 +44,7 @@ const Faq = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="card border-0 wow fadeInUp" data-wow-delay="0.4s" style={{visibility: 'visible', AnimationEffect: '0.2s', animationName: 'fadeInUp'}}>
+                                            <div data-aos="fade-left" data-aos-offset="300" data-aos-duration="1500" mirror='true' className="card border-0 wow fadeInUp" data-wow-delay="0.4s" style={{visibility: 'visible', AnimationEffect: '0.2s', animationName: 'fadeInUp'}}>
                                                 <div className="card-header" id="headingThree">
                                                     <h6 className="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">03. Why do students struggle with academic writing?<span className="lni-chevron-up"></span></h6>
                                                 </div>

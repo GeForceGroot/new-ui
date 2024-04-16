@@ -1,6 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
 import '../style/assignmnetProvide.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const AssignmnetProvide = () => {
     const [hoverI, setHoverI] = useState(true);
     const [hoverII, setHoverII] = useState(true);
@@ -55,13 +58,13 @@ const AssignmnetProvide = () => {
                 <section className="popular space container" style={{marginTop:"100px"}}>
                 <div className="box hexagon">
                     <div className="text-center section-heading" >
-                        <h4>🧑🏻‍🏫Discover the Variety of Assignments We Offer!</h4>
+                        <h4 data-aos="flip-up" data-aos-offset="300" data-aos-duration="1500" mirror='true'>🧑🏻‍🏫Discover the Variety of Assignments We Offer!</h4>
                     </div>
                     <div className="row" id='provideAss' >
                         {hoverI ? (
-                            <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveI}>
+                            <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveI} data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" mirror='true'>
                                 <div className="hex" style={{ opacity: '1' }}>
-                                    <img src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon7.svg" alt="" width={"40px"} height={'40px'} />
+                                    <img  src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon7.svg" alt="" width={"40px"} height={'40px'} />
                                     <h4>Study assistance</h4>
                                 </div>
                             </div>
@@ -78,9 +81,9 @@ const AssignmnetProvide = () => {
                         )}
                         {/* ----------- */}
                         {hoverII ? (
-                            <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveII}>
+                            <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveII} data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" mirror='true'>
                                 <div className="hex" style={{ opacity: '1' }}>
-                                    <img src="https://myassignment.live/front/img/essay-writing.svg" alt="" width={"40px"} height={'40px'} />
+                                    <img  src="https://myassignment.live/front/img/essay-writing.svg" alt="" width={"40px"} height={'40px'} />
                                     <h4>Essay Assistance</h4>
                                 </div>
                             </div>
@@ -100,9 +103,9 @@ const AssignmnetProvide = () => {
                         {/* ---------------- */}
 
                         {hoverIII ? (
-                            <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveIII}>
+                            <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveIII} data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" mirror='true'>
                                 <div className="hex" style={{ opacity: '1' }}>
-                                    <img src="https://cdn1.myassignment.live/mal-img/management.svg" alt="" width={"40px"} height={'40px'} />
+                                    <img  src="https://cdn1.myassignment.live/mal-img/management.svg" alt="" width={"40px"} height={'40px'} />
                                     <h4>Research Paper Support</h4>
                                 </div>
                             </div>
@@ -126,9 +129,9 @@ const AssignmnetProvide = () => {
                             {/* -------------/ */}
 
                             {hoverIV ? (
-                                <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveIV}>
+                                <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveIV} data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" mirror='true'>
                                     <div className="hex" style={{ opacity: '1' }}>
-                                        <img src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon8.svg" alt="" width={"40px"} height={'40px'} />
+                                        <img  src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon8.svg" alt="" width={"40px"} height={'40px'} />
                                         <h4>Homework Aid</h4>
                                     </div>
                                 </div>
@@ -148,9 +151,9 @@ const AssignmnetProvide = () => {
                             {/* ----------- */}
 
                             {hoverV ? (
-                                <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveV}>
+                                <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveV} data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" mirror='true'>
                                     <div className="hex" style={{ opacity: '1' }}>
-                                        <img src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon3.svg" alt="" width={"40px"} height={'40px'} />
+                                        <img  src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon3.svg" alt="" width={"40px"} height={'40px'} />
                                         <h4>Case Study Solutions</h4>
                                     </div>
                                 </div>
@@ -169,9 +172,9 @@ const AssignmnetProvide = () => {
 
                             {/* ---------- */}
                             {hoverVI ? (
-                                <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveVI}>
+                                <div className="col-sm one-third" id='stdHelp' onMouseEnter={handleHoverLeaveVI} data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" mirror='true'>
                                     <div className="hex" style={{ opacity: '1' }}>
-                                        <img src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon9.svg" alt="" width={"40px"} height={'40px'} />
+                                        <img  src="https://cdn1.myassignment.live/lazyload-assets/2022/new-cms-images/box_icon9.svg" alt="" width={"40px"} height={'40px'} />
                                         <h4>Other Academic and Content Tasks</h4>
                                     </div>
                                 </div>

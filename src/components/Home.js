@@ -10,8 +10,8 @@ import WorkSpeaks from './WorkSpeaks'
 import Dream from './Dream'
 import Acadmicimpact from './Acadmicimpact'
 import Faq from './Faq'
-import Testimonials from './Testimonials'
 import { Helmet } from 'react-helmet'
+import Testimonials from './Testimonials'
 
 const Home = () => {
     return (
@@ -32,7 +32,7 @@ const Home = () => {
             <Dream />
             <Acadmicimpact />
             <Faq />
-            <Testimonials />
+            <Testimonials/>
         </>
     )
 }

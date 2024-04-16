@@ -3,6 +3,9 @@
 import React from 'react'
 import clinetImage from '../style/clientImage.jpg'
 import '../style/footerStyle.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Footer = () => {
     return (
@@ -10,13 +13,13 @@ const Footer = () => {
             <section style={{ backgroundColor: "#f4f4f4" }}>
                 <section className='portfolio' style={{ backgroundColor: "#f4f4f4" }}>
                     <div className='container' style={{ textAlign: "center" }}>
-                        <img src={clinetImage} style={{ marginTop: "100px", borderRadius: '50%' }} width={"125px"} height={"125px"} alt="logo" />
-                        <h6 style={{ marginTop: '50px', fontWeight: "bold" }}>Meet Shruti, Your Expert Content Writer in India</h6>
-                        <p style={{ fontSize: "15px", marginTop: "30px" }}>My journey is defined by a relentless pursuit of excellence and innovation in education. I established a strong foundation during my secondary education and honed my technical proficiency through certifications and skills development. This paved the way for my venture into leadership and entrepreneurship. Mobilizing critical projects and implementing Total Productive Maintenance (TPM) with zero defects underscore my dedication to driving efficiency and quality.</p>
-                        <p style={{ fontSize: "15px" }}>My ability to pinpoint areas for improvement has resulted in significant boosts in productivity, employee skills, and key performance indicators. The inception of Smart Study Assist reflects my belief in leveraging technology to enhance academic services and foster student success. Through a blend of leadership, problem-solving, and a commitment to customer satisfaction, Smart Study Assist stands as a trusted partner in academic and professional growth.</p>
+                        <img data-aos="fade-up" data-aos-offset="240" data-aos-duration="1500" mirror='true' src={clinetImage} style={{ marginTop: "100px", borderRadius: '50%' }} width={"125px"} height={"125px"} alt="logo" />
+                        <h6 data-aos="fade-up" data-aos-offset="240" data-aos-duration="1500" mirror='true' style={{ marginTop: '50px', fontWeight: "bold" }}>Meet Shruti, Your Expert Content Writer in India</h6>
+                        <p data-aos="fade-up" data-aos-offset="240" data-aos-duration="1500" mirror='true' style={{ fontSize: "15px", marginTop: "30px" }}>My journey is defined by a relentless pursuit of excellence and innovation in education. I established a strong foundation during my secondary education and honed my technical proficiency through certifications and skills development. This paved the way for my venture into leadership and entrepreneurship. Mobilizing critical projects and implementing Total Productive Maintenance (TPM) with zero defects underscore my dedication to driving efficiency and quality.</p>
+                        <p data-aos="fade-up" data-aos-offset="240" data-aos-duration="1500" mirror='true' style={{ fontSize: "15px" }}>My ability to pinpoint areas for improvement has resulted in significant boosts in productivity, employee skills, and key performance indicators. The inception of Smart Study Assist reflects my belief in leveraging technology to enhance academic services and foster student success. Through a blend of leadership, problem-solving, and a commitment to customer satisfaction, Smart Study Assist stands as a trusted partner in academic and professional growth.</p>
                     </div>
                     <div className='container' style={{ display: 'flex', fontWeight: 'bold', justifyContent: 'center' }} id='foornabvar'>
-                        <ul id='unOrderFoot' >
+                        <ul id='unOrderFoot' data-aos="flip-up" data-aos-offset="200" data-aos-duration="1500" mirror='true'>
                             <a href="https://www.facebook.com/shruti.assignments" style={{ color: 'blue', textDecoration: 'none' }}>
                                 <li style={{ marginLeft: "30px" }}><i className="fab fa-facebook-f"></i></li>
                             </a>
@@ -31,7 +34,7 @@ const Footer = () => {
                             </a>
                         </ul>
                     </div>
-                    <div className='btnTalk' style={{ textAlign: "center" }}>
+                    <div className='btnTalk' style={{ textAlign: "center" }} data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1500" mirror='true'>
                         <a href="/contact_us" target='_blank'>
                             <button type="button" id='portfolio' className="btn btn-primary ">
                                 <img src="https://www.svgrepo.com/show/51022/working.svg" width={'25px'} height={'25px'} style={{ marginRight: '15px' }} alt="phone" />

@@ -21,13 +21,13 @@ const UpperBar = () => {
                             <p style={{ marginLeft: "10px", fontSize: '15px', fontWeight: "400" }}>+91-9530473222</p>
                         </div>
                         <div className="form-inline my-lg-0">
-                            <a style={{ marginBottom: '14px', textDecoration: 'none', color: 'black', fontWeight: 'bold' }} href="/contact_us" target='_blank' >Special Offer
+                            <span style={{ marginBottom: '14px', textDecoration: 'none', color: 'black', fontWeight: 'bold' }} href="/contact_us" target='_blank' >Special Offer
                                 <img src="https://www.svgrepo.com/show/293513/offer.svg" style={{ marginRight: '15px', marginLeft: '15px', marginBottom: '5px' }} alt="Facebook" width={'30px'} height={'30px'} />
-                                Get 25% Off ! Limited Time, Hurry ! 
-                                <a href="">CLAIM OFFER</a>
-                            </a>
+                                Get 25% Off ! Limited Time, Hurry !
+                                <a href="/contact_us">CLAIM OFFER</a>
+                            </span>
                             <a style={{ marginBottom: '14px' }} href="https://www.facebook.com/shruti.assignments" target='_blank'>
-                                <img src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg" style={{marginLeft:'50px', marginRight: '15px' }} alt="Facebook" width={'30px'} height={'30px'} />
+                                <img src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg" style={{ marginLeft: '50px', marginRight: '15px' }} alt="Facebook" width={'30px'} height={'30px'} />
                             </a>
                             <a style={{ marginBottom: '14px' }} href="https://www.instagram.com/shruti.assignments/?utm_source=qr&igsh=MWgwaDV1djF5ejB3bw%3D%3D" target='_blank'>
                                 <img src="https://cdn.iconscout.com/icon/free/png-256/free-instagram-1946323-1646407.png?f=webp" style={{ marginRight: '20px' }} alt="x" width={'30px'} height={'30px'} />
