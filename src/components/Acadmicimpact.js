@@ -11,7 +11,7 @@ AOS.init();
 const Acadmicimpact = () => {
     useEffect(() => {
         let valueDisplays = document.querySelectorAll('.num');
-        let interval = 3000;
+        let interval = 2500;
 
         valueDisplays.forEach((valueDisplays) => {
             let startValue = 0;
@@ -29,19 +29,19 @@ const Acadmicimpact = () => {
     return (
         <>
             <section className='hell' style={{ justifyContent: "center", textAlign: 'center', marginTop: '50px', }}>
-                <div className='ok' style={{ display: 'flex', justifyContent: 'center' }}  data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" mirror='true'>
+                <div className='ok' style={{ display: 'flex', justifyContent: 'center' }}  data-aos="fade-up" data-aos-offset="250" data-aos-duration="1500" mirror='true'>
                     <h4 style={{ padding: '7px', color: "#030264" }}>Academic Impact: Our Track Record</h4>
                     <img src="https://cdn-icons-png.flaticon.com/128/3281/3281323.png" width={'40px'} height={'40px'} style={{ marginRight: '25px' }} alt="" />
                 </div>
                 <div className='container'>
                     <div className='row' style={{ marginTop: "50px", textAlign: 'center' }}>
-                        <div className='col' data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" mirror='true' >
+                        <div className='col' data-aos="fade-up" data-aos-offset="250" data-aos-duration="1500" mirror='true' >
                             <span data-val="15" className='num' style={{ fontSize: '27px', fontWeight: 'bold', fontFamily: 'cursive' }}>0000</span>
                             <p style={{ fontSize: "16px", fontWeight: "normal", fontFamily: "initial" }}>years of experience </p></div>
-                        <div className='col' data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" mirror='true' >
+                        <div className='col' data-aos="fade-up" data-aos-offset="250" data-aos-duration="1500" mirror='true' >
                             <span data-val="1041" className='num' style={{ fontSize: '27px', fontWeight: 'bold', fontFamily: 'cursive' }}>0000</span>
                             <p style={{ fontSize: "16px", fontWeight: "normal", fontFamily: "initial" }}>projects</p></div>
-                        <div className='col' data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" mirror='true' >
+                        <div className='col' data-aos="fade-up" data-aos-offset="250" data-aos-duration="1500" mirror='true' >
                             <span data-val="1571" className='num' style={{ fontSize: '27px', fontWeight: 'bold', fontFamily: 'cursive' }}>0000</span>
                             <p style={{ fontSize: "16px", fontWeight: "normal", fontFamily: "initial" }}>happy students</p>
                         </div>

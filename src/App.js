@@ -11,9 +11,16 @@ import UpperBar from './components/UpperBar';
 import Protfolio from './components/Protfolio';
 import PagePort1 from './components/Page1Port';
 import Home from './components/Home';
+import { useState } from 'react'
+import Popup from './components/Popup';
 
 
 function App() {
+  const [showPopup, setShowPopup] = useState(true);
+
+  const handleClose = () => {
+    setShowPopup(false);
+  };
   return (
     <>
       <UpperBar />
@@ -21,7 +28,8 @@ function App() {
       <Router>
         <Switch>
           <Route exact path='/'>
-            <Home/>
+            <Popup show={showPopup} handleClose={handleClose} />
+            <Home />
           </Route>
           <Route path='/allServices'>
             <Service />
@@ -36,7 +44,7 @@ function App() {
             <Protfolio />
           </Route>
           <Route path='/portolio_1'>
-            <PagePort1/>
+            <PagePort1 />
           </Route>
         </Switch>
       </Router>
