@@ -41,8 +41,7 @@ const ContactUsForm = () => {
 
     return (
         <div className="contact-form-container">
-            <h2>Contact Us</h2>
-            <form className="form" ref={form} onSubmit={sendEmail}>
+            <form className="form" ref={form} onSubmit={sendEmail} >
                 <div className='row' id='rowForm' >
                     <div className="col form-group" id='colForm'>
                         <label htmlFor="name">Your Name (Required)</label>
