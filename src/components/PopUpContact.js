@@ -1,18 +1,16 @@
-// ContactUsForm.js
-
-import '../style/popupConatc.css'
+import '../style/popupConatc.css';
 import React, { useState } from 'react';
-import { useRef } from 'react'
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
 
 const ContactUsForm = () => {
-    const form = useRef();
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         phone: '',
-        message: ''
+        requirement: ''
     });
+
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -25,13 +23,19 @@ const ContactUsForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs
-            .sendForm('service_rw2gu5k', 'template_ojz2pk8', form.current, {
+            .sendForm('service_rw2gu5k', 'template_ojz2pk8', e.target, {
                 publicKey: 'ljK8_Qd1p3N6fl0Bq',
             })
             .then(
                 () => {
                     console.log('SUCCESS!');
-                    alert('Thank you I will get back to you as soon as possible ! (:');
+                    alert('Thank you! I will get back to you as soon as possible.');
+                    setFormData({
+                        name: '',
+                        email: '',
+                        phone: '',
+                        requirement: ''
+                    });
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
@@ -40,9 +44,9 @@ const ContactUsForm = () => {
     };
 
     return (
-        <div className="contact-form-container">
-            <form className="form" ref={form} onSubmit={sendEmail} >
-                <div className='row' id='rowForm' >
+        <div className="contact-form-container" style={{boxShadow:'none'}}>
+            <form className="form" onSubmit={sendEmail} >
+                <div className='row' id='rowForm'>
                     <div className="col form-group" id='colForm'>
                         <label htmlFor="name">Your Name (Required)</label>
                         <input style={{ border: '2px solid' }} type="text" id="name" name="name" value={formData.name} onChange={handleChange} placeholder="Enter your name" required />

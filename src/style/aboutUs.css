@@ -2,7 +2,6 @@
   position: relative;
   opacity: 0.99;
 }
-
 #bgServe:before {
   content: "";
   position: absolute;
